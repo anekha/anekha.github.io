@@ -1,14 +1,35 @@
 ---
-title: "The Student Forecaster Model"
-date: 2024-08-15
+title: "Welcome to Jekyll!"
+date: 2019-04-18T15:34:30-04:00
 categories:
-  - machine-learning
+  - blog
 tags:
-  - education
-  - streamlit
-  - data-analysis
-  - visualization
+  - Jekyll
+  - update
 ---
+
+
+[//]: # (---)
+
+[//]: # (title: "The Student Forecaster Model")
+
+[//]: # (date: 2024-08-15)
+
+[//]: # (categories:)
+
+[//]: # (  - machine-learning)
+
+[//]: # (tags:)
+
+[//]: # (  - education)
+
+[//]: # (  - streamlit)
+
+[//]: # (  - data-analysis)
+
+[//]: # (  - visualization)
+
+[//]: # (---)
 
 As part of the **Le Wagon Bootcamp**, this was my final group project:
 
