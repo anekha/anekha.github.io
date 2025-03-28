@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Anekha Sokhal
+logo: "/assets/crab.png"
 email: anekhas@gmail.com
 description: Portfolio showcasing my work in AI and Computer Vision
 # this means to ignore newlines until "baseurl:"
@@ -62,7 +63,6 @@ plugins:
 
 author:
   name   : "Anekha Sokhal"
-  logo: "/assets/crab.png" # Site logo, also used in jekyll-seo-tag
   avatar : "/assets/images/bio_photo_anekha.jpeg"
   bio    : "Portfolio showcasing my work in AI and Computer Vision"
   location : "Houston, Texas"
@@ -82,6 +82,10 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/anekha/"
+
+# Favicon (appears in the browser tab)
+favicons:
+  32: "/assets/crab.png"
 
 footer:
   links:
@@ -118,7 +122,6 @@ defaults:
       layout: single
       author_profile: true
 
-favicon: "/assets/crab.png"
 
 category_archive:
   type: liquid
