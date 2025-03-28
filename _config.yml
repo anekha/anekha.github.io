@@ -117,6 +117,8 @@ defaults:
       layout: single
       author_profile: true
 
+favicon: "/assets/images/favicon.png"
+
 category_archive:
   type: liquid
   path: /categories/

@@ -7,7 +7,7 @@ author_profile: true
 
 <!-- taken from https://emiliendupont.github.io/resume/  -->
 
-For more details, you can download the pdf version of my resume [{% include icon.html id="pdf" title="pdf" %}here](assets/RESUME_SOKHAL_ANEKHA_Mar25.pdf) (updated March 2025).
+For more details, you can download the PDF version of my resume 📄 [here](assets/RESUME_SOKHAL_ANEKHA_Mar25.pdf) (updated March 2025).
 
 ## Education 🎓
 
@@ -15,7 +15,7 @@ For more details, you can download the pdf version of my resume [{% include icon
 <div style="display:flex;">
 
   <div style="flex:0.5; padding-right:5%">
-    <img src="{{ site.url }}/imgs/resume-icons/rice.png" style="align:left; border: 1px solid #d3d3d3; border-style: outset;">
+    <img src="{{ site.url }}assets/resume/rice.png" style="align:left; border: 1px solid #d3d3d3; border-style: outset;">
   </div>
 
   <div style="flex:4;">
@@ -59,7 +59,7 @@ For more details, you can download the pdf version of my resume [{% include icon
 <div style="display:flex;">
 
   <div style="flex:0.5; padding-right:5%">
-    <img src="{{ site.url }}/imgs/resume-icons/jewelvision.png" style="align:left; border: 1px solid #d3d3d3; border-style: outset;">
+    <img src="{{ site.url }}assets/resume/jewelvision.svg" style="align:left; border: 1px solid #d3d3d3; border-style: outset;">
   </div>
 
   <div style="flex:4;">
@@ -82,7 +82,7 @@ For more details, you can download the pdf version of my resume [{% include icon
 <div style="display:flex;">
 
   <div style="flex:0.5; padding-right:5%">
-    <img src="{{ site.url }}/imgs/resume-icons/deepmind.png" style="align:left; border: 1px solid #d3d3d3; border-style: outset;">
+    <img src="{{ site.url }}assets/resume/legem.png" style="align:left; border: 1px solid #d3d3d3; border-style: outset;">
   </div>
 
   <div style="flex:4;">
@@ -126,7 +126,7 @@ For more details, you can download the pdf version of my resume [{% include icon
 <div style="display:flex;">
 
   <div style="flex:0.5; padding-right:5%">
-    <img src="{{ site.url }}/imgs/resume-icons/apple.png" style="align:left; border: 1px solid #d3d3d3; border-style: outset;">
+    <img src="{{ site.url }}assets/resume/nasa.png" style="align:left; border: 1px solid #d3d3d3; border-style: outset;">
   </div>
 
   <div style="flex:4;">
@@ -146,7 +146,7 @@ For more details, you can download the pdf version of my resume [{% include icon
 <div style="display:flex;">
 
   <div style="flex:0.5; padding-right:5%">
-    <img src="{{ site.url }}/imgs/resume-icons/stic.png" style="align:left; border: 1px solid #d3d3d3; border-style: outset;">
+    <img src="{{ site.url }}assets/resume/stabilityai.png" style="align:left; border: 1px solid #d3d3d3; border-style: outset;">
   </div>
 
   <div style="flex:4;">
