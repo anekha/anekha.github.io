@@ -4,9 +4,8 @@ permalink: /
 layout: single
 author_profile: true
 no_meta: true
+classes: wide
 ---
-
-<div style="margin: 0 auto; max-width: 900px; padding: 0 20px;">
 
 ## About Me ☁️✨ 
 
@@ -42,5 +41,5 @@ I love traveling, hiking, skiing, and spending time with friends, family, and an
 
 Thanks for stopping by! 😊
 
-</div>
+
 
