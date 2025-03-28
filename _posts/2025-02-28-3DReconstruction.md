@@ -1,6 +1,6 @@
 ---
 title: "3D Reconstruction for Ornaments: From Camera Poses to Geometry"
-date: 2025-03-30
+date: 2025-03-28
 categories:
   - research
   - computer vision
