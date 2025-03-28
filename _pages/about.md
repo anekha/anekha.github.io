@@ -16,10 +16,6 @@ I'm developing an **object detection deep learning model** in collaboration with
 
 ## My Story ✨ 
 
-<details>
-  <summary><strong>My story</strong></summary>
-
-
 My journey into tech hasn’t been linear. I graduated with a degree in **MORSE (Mathematics, Operational Research, Statistics, and Economics)** from the **University of Warwick** in 2014 — basically data science before it had a name! My first job out of university was at **JP Morgan** as a **Derivatives Trader**, which had been my dream job — and where I spent the next 7 years.
 
 During the pandemic, I found myself helping my family’s business and fell in love with using **data analytics for business transformation**. That experience — and a pro bono consulting project with the **Maharishi Institute** (the world’s first self-funded university) — opened my eyes to the power of data beyond the trading floor.
@@ -48,6 +44,5 @@ I love traveling, hiking, skiing, and spending time with friends, family, and an
 
 Thanks for stopping by! 😊
 
-</details>
 
 
