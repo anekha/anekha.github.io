@@ -1,8 +1,9 @@
 ---
-permalink: /
 title: ""
-excerpt: ""
+permalink: /
+layout: single
 author_profile: true
+no_meta: true
 ---
 
 ## About Me ☁️✨ 
