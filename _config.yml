@@ -83,10 +83,6 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/anekha/"
 
-# Favicon (appears in the browser tab)
-favicons:
-  32: "/assets/crab.png"
-
 footer:
   links:
 #    - label: "Twitter"
@@ -122,6 +118,9 @@ defaults:
       layout: single
       author_profile: true
 
+# Favicon (appears in the browser tab)
+favicons:
+  32: "/assets/crab.png"
 
 category_archive:
   type: liquid
