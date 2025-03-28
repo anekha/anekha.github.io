@@ -118,9 +118,7 @@ defaults:
       layout: single
       author_profile: true
 
-# Favicon (appears in the browser tab)
-favicons:
-  32: "/assets/crab.png"
+favicon: "/assets/crab.png"
 
 category_archive:
   type: liquid
