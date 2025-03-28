@@ -11,7 +11,7 @@ author_profile: true
   <li>
     <b>Fulbright Elsevier Award</b>
     <span style="float:right; color:#7a7a7a;">Aug 2023</span><br>
-    <i>Prestigious UK-US award for data analytics</i><br>
+    <i>UK-US Fulbright Elsevier Data Analytics Award</i><br>
     <a href="https://fulbright.org.uk/people-search/anekha-sokhal/">Fulbright UK</a> |
     <a href="https://fulbright.rice.edu/people/anekha-sokhal">Rice Profile</a> |
     <a href="https://engineering.rice.edu/news/fulbrighters-engineering-professional-masters-program-rice-home-away-home">Rice Engineering</a>

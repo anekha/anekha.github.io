@@ -14,6 +14,11 @@ Hi, I’m Anekha — currently completing my Master’s in Data Science at **Ric
 
 I'm developing an **object detection deep learning model** in collaboration with **NASA**, and conducting **3D reconstruction research** in partnership with **Stability AI** as part of the Computer Vision Research Lab at Rice.
 
+<details>
+  <summary><strong>Click to read more</strong></summary>
+
+  <br>
+
 ## My Story ✨ 
 
 My journey into tech hasn’t been linear. I graduated with a degree in **MORSE (Mathematics, Operational Research, Statistics, and Economics)** from the **University of Warwick** in 2014 — basically data science before it had a name! My first job out of university was at **JP Morgan** as a **Derivatives Trader**, which had been my dream job — and where I spent the next 7 years.
@@ -24,6 +29,7 @@ Helping them made me realize how much customer-focused consumer businesses lacke
 
 I joined the **Le Wagon bootcamp** to build a strong foundation in data science and reignite my Python programming. Wanting to make a real difference using data, I felt driven to understand *what to build* — which led me to being awarded a **Fulbright Scholarship**, and eventually to Rice, where I founded **JewelVision** — a startup building **3D assets and virtual try-on experiences** using computer vision and generative AI for e-commerce brands. 💍✨
 
+</details>
 ---
 
 ## What I'm Into Now 🚀
