@@ -7,7 +7,6 @@ no_meta: true
 classes: wide
 ---
 
-<div style="font-size: 0.95em; line-height: 1.6;">
 
 ## About Me ☁️✨ 
 
@@ -43,6 +42,6 @@ I love traveling, hiking, skiing, and spending time with friends, family, and an
 
 Thanks for stopping by! 😊
 
-</div>
+
 
 
