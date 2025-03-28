@@ -19,15 +19,15 @@ I'm developing an **object detection deep learning model** in collaboration with
 
   <br>
 
-  ## My Story ✨ 
-    
-  My journey into tech hasn’t been linear. I graduated with a degree in **MORSE (Mathematics, Operational Research, Statistics, and Economics)** from the **University of Warwick** in 2014 — basically data science before it had a name! My first job out of university was at **JP Morgan** as a **Derivatives Trader**, which had been my dream job — and where I spent the next 7 years.
-    
-  During the pandemic, I found myself helping my family’s business and fell in love with using **data analytics for business transformation**. That experience — and a pro bono consulting project with the **Maharishi Institute** (the world’s first self-funded university) — opened my eyes to the power of data beyond the trading floor.
-    
-  Helping them made me realize how much customer-focused consumer businesses lacked data-driven decision making — a huge contrast to the energy markets I came from, where every move was backed by data. 💡
-    
-  I joined the **Le Wagon bootcamp** to build a strong foundation in data science and reignite my Python programming. Wanting to make a real difference using data, I felt driven to understand *what to build* — which led me to being awarded a **Fulbright Scholarship**, and eventually to Rice, where I founded **JewelVision** — a startup building **3D assets and virtual try-on experiences** using computer vision and generative AI for e-commerce brands. 💍✨
+  <h2>My Story ✨</h2>
+
+  <p>My journey into tech hasn’t been linear. I graduated with a degree in <strong>MORSE (Mathematics, Operational Research, Statistics, and Economics)</strong> from the <strong>University of Warwick</strong> in 2014 — basically data science before it had a name! My first job out of university was at <strong>JP Morgan</strong> as a <strong>Derivatives Trader</strong>, which had been my dream job — and where I spent the next 7 years.</p>
+
+  <p>During the pandemic, I found myself helping my family’s business and fell in love with using <strong>data analytics for business transformation</strong>. That experience — and a pro bono consulting project with the <strong>Maharishi Institute</strong> (the world’s first self-funded university) — opened my eyes to the power of data beyond the trading floor.</p>
+
+  <p>Helping them made me realize how much customer-focused consumer businesses lacked data-driven decision making — a huge contrast to the energy markets I came from, where every move was backed by data. 💡</p>
+
+  <p>I joined the <strong>Le Wagon bootcamp</strong> to build a strong foundation in data science and reignite my Python programming. Wanting to make a real difference using data, I felt driven to understand <em>what to build</em> — which led me to being awarded a <strong>Fulbright Scholarship</strong>, and eventually to Rice, where I founded <strong>JewelVision</strong> — a startup building <strong>3D assets and virtual try-on experiences</strong> using computer vision and generative AI for e-commerce brands. 💍✨</p>
 
 </details>
 ---
