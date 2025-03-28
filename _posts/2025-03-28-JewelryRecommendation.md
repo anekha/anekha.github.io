@@ -10,7 +10,6 @@ tags:
   - fashion
   - personalization
 class: wide
-link: https://github.com/anekha/jewelry_recommendations
 ---
 
 ## Background

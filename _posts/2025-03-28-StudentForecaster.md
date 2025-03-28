@@ -10,7 +10,6 @@ tags:
   - data-analysis
   - visualization
 classes: wide
-link: https://github.com/anekha/streamlit_ml_for_learners
 ---
 
 As part of the **Le Wagon Bootcamp**, this was my final group project:
