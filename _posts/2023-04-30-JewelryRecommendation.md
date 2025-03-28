@@ -8,13 +8,13 @@ tags:
   - streamlit
   - fashion
   - personalization
-excerpt: "A Streamlit-powered app that recommends jewelry using facial features and color analysis."
 class: wide
+excerpt: "A Streamlit-powered app that recommends jewelry using facial features and color analysis."
 ---
 
 ## Background
 
-This project was built as part of my **COMP642 course** at Rice University. I developed a **Jewelry Recommendation System** that personalizes jewelry design suggestions based on a user's face shape and skin undertone using **computer vision** and a **Streamlit app**.
+This project was built as part of my **Machine Learning course** at Rice University. I developed a **Jewelry Recommendation System** that personalizes jewelry design suggestions based on a user's face shape and skin undertone using **computer vision** and a **Streamlit app**.
 
 ## 🧠 Problem Statement
 How can we use machine learning and color theory to suggest jewelry that complements an individual’s unique facial features?
@@ -23,7 +23,9 @@ How can we use machine learning and color theory to suggest jewelry that complem
 We used a publicly available dataset from Kaggle with over **5,000 labeled celebrity images** across 5 face shapes: Oval, Round, Square, Heart, and Oblong.  
 [Kaggle Dataset →](https://www.kaggle.com/datasets/niten19/face-shape-dataset)
 
-![Dataset Structure](/assets/projects/jewelryrecommendation/dataset-structure.png)
+<p align="center">
+  <img src="/assets/projects/jewelryrecommendation/dataset-structure.png" alt="Dataset Structure" width="40%">
+</p>
 
 ## 💻 Tech Stack
 - **Face Detection:** MTCNN for facial landmarks
@@ -44,8 +46,9 @@ Here’s a snapshot of the app in action:
 
 Below are screenshots of the application UI and results:
 
-![App UI Example](/assets/projects/jewelryrecommendation/app_ex.png)
 ![App Screenshot](/assets/projects/jewelryrecommendation/app_screenshot.png)
+<div style="margin-top: 40px;"></div>
+![App UI Example](/assets/projects/jewelryrecommendation/app_ex.png)
 
 ## 🧠 Recommendation Logic
 

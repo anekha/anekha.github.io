@@ -118,8 +118,6 @@ defaults:
       layout: single
       author_profile: true
 
-favicon: "/assets/crab.png"
-
 category_archive:
   type: liquid
   path: /categories/
