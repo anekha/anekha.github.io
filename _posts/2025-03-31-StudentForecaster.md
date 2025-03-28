@@ -1,5 +1,6 @@
 ---
 title: "The Student Forecaster Model"
+excerpt: "A Streamlit app that predicts student academic performance using socio-economic and behavioral data."
 date: 2024-08-15
 categories:
   - machine-learning
@@ -8,8 +9,8 @@ tags:
   - streamlit
   - data-analysis
   - visualization
-excerpt: "A Streamlit app that predicts student academic performance using socio-economic and behavioral data."
 classes: wide
+link: https://github.com/anekha/streamlit_ml_for_learners
 ---
 
 As part of the **Le Wagon Bootcamp**, this was my final group project:

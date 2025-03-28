@@ -1,5 +1,6 @@
 ---
 title: "Jewelry Recommendation System"
+excerpt: "A Streamlit-powered app that recommends jewelry using facial features and color analysis."
 date: 2025-03-28
 categories:
   - machine-learning
@@ -9,7 +10,7 @@ tags:
   - fashion
   - personalization
 class: wide
-excerpt: "A Streamlit-powered app that recommends jewelry using facial features and color analysis."
+link: https://github.com/anekha/jewelry_recommendations
 ---
 
 ## Background
