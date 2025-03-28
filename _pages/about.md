@@ -6,7 +6,8 @@ author_profile: true
 no_meta: true
 ---
 
-<div style="margin: auto; width: 80%; max-width: 800px;">
+<div style="margin: auto; max-width: 900px; padding: 0 1rem;">
+
 
 ## About Me ☁️✨ 
 
