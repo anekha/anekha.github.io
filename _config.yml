@@ -62,6 +62,7 @@ plugins:
 
 author:
   name   : "Anekha Sokhal"
+  logo: "/assets/crab.png" # Site logo, also used in jekyll-seo-tag
   avatar : "/assets/images/bio_photo_anekha.jpeg"
   bio    : "Portfolio showcasing my work in AI and Computer Vision"
   location : "Houston, Texas"
