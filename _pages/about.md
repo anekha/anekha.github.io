@@ -1,7 +1,8 @@
 ---
 title: "About"
 permalink: /
-layout: page
+layout: single
+classes: wide
 author_profile: true
 no_meta: true
 ---
