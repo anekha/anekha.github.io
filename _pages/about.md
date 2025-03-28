@@ -6,6 +6,7 @@ author_profile: true
 no_meta: true
 ---
 
+<div style="margin: 0 auto; max-width: 900px; padding: 0 20px;">
 
 ## About Me ☁️✨ 
 
@@ -40,3 +41,6 @@ Let’s build the future of immersive AI experiences together 🌍✨
 I love traveling, hiking, skiing, and spending time with friends, family, and animals. Life is more fun when it’s a mix of creativity, nature, and purpose.
 
 Thanks for stopping by! 😊
+
+</div>
+
