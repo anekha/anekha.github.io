@@ -8,6 +8,7 @@ tags:
   - streamlit
   - data-analysis
   - visualization
+excerpt: "A Streamlit app that predicts student academic performance using socio-economic and behavioral data."
 classes: wide
 ---
 

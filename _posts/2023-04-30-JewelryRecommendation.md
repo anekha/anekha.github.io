@@ -8,6 +8,8 @@ tags:
   - streamlit
   - fashion
   - personalization
+excerpt: "A Streamlit-powered app that recommends jewelry using facial features and color analysis."
+class: wide
 ---
 
 ## Background
@@ -21,7 +23,7 @@ How can we use machine learning and color theory to suggest jewelry that complem
 We used a publicly available dataset from Kaggle with over **5,000 labeled celebrity images** across 5 face shapes: Oval, Round, Square, Heart, and Oblong.  
 [Kaggle Dataset →](https://www.kaggle.com/datasets/niten19/face-shape-dataset)
 
-![Dataset Structure](/assets/projects/jewelryrecommendation/dataset.png)
+![Dataset Structure](/assets/projects/jewelryrecommendation/dataset-structure.png)
 
 ## 💻 Tech Stack
 - **Face Detection:** MTCNN for facial landmarks
@@ -38,10 +40,12 @@ We used a publicly available dataset from Kaggle with over **5,000 labeled celeb
 
 Here’s a snapshot of the app in action:
 
-<div style="display: flex; gap: 1rem;">
-  <img src="/assets/projects/jewelryrecommendation/app_ex.png" width="48%">
-  <img src="/assets/projects/jewelryrecommendation/app_screenshot.png" width="48%">
-</div>
+## 🖼️ Application Demo
+
+Below are screenshots of the application UI and results:
+
+![App UI Example](/assets/projects/jewelryrecommendation/app_ex.png)
+![App Screenshot](/assets/projects/jewelryrecommendation/app_screenshot.png)
 
 ## 🧠 Recommendation Logic
 
