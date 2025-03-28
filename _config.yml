@@ -118,7 +118,7 @@ defaults:
       layout: single
       author_profile: true
 
-favicon: "/assets/images/favicon.png"
+favicon: "/assets/crab.png"
 
 category_archive:
   type: liquid
