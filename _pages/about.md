@@ -7,6 +7,8 @@ no_meta: true
 classes: wide
 ---
 
+<div style="font-size: 0.95em; line-height: 1.6;">
+
 ## About Me ☁️✨ 
 
 Hi, I’m Anekha — currently completing my Master’s in Data Science at **Rice University** in Houston, Texas, where I specialize in **Computer Vision** through the **Fulbright Elsevier UK-US Scholarship**.
@@ -41,5 +43,6 @@ I love traveling, hiking, skiing, and spending time with friends, family, and an
 
 Thanks for stopping by! 😊
 
+</div>
 
 
