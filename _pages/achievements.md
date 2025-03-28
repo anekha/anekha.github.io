@@ -5,94 +5,61 @@ permalink: /achievements/
 author_profile: true
 ---
 
-
-## Awards 🌟
+## 🏆 Awards
 
 <ul>
   <li>
-    <b>Google DeepMind Scholarship</b>
-    <span style="float:right; color:#7a7a7a;">2018</span> <br>
-    <i>PhD funding, 150,000 USD</i>
+    <b>Fulbright Elsevier Award</b>
+    <span style="float:right; color:#7a7a7a;">Aug 2023</span><br>
+    <i>Prestigious UK-US award for data analytics</i><br>
+    <a href="https://fulbright.org.uk/people-search/anekha-sokhal/">Fulbright UK</a> |
+    <a href="https://fulbright.rice.edu/people/anekha-sokhal">Rice Profile</a> |
+    <a href="https://engineering.rice.edu/news/fulbrighters-engineering-professional-masters-program-rice-home-away-home">Rice Engineering</a>
   </li>
 
   <li>
-    <b>Schlumberger Out of the Ordinary Award</b>
-    <span style="float:right; color:#7a7a7a;">2018</span> <br>
-    <i>Award for extraordinary technical achievements</i>
+    <b>IBM Masters Fellowship Awards in AI (Nominee)</b>
+    <span style="float:right; color:#7a7a7a;">2024–2025</span>
   </li>
 
   <li>
-    <b>Digital Forum Innovation Award</b>
-    <span style="float:right; color:#7a7a7a;">2017</span> <br>
-    <i>Schlumberger award for most innovative project among 300+ submissions</i>
-  </li>
-
-  <li>
-    <b>Schlumberger AI Leader</b>
-    <span style="float:right; color:#7a7a7a;">2016</span> <br>
-    <i>Elected as leader of the 1000+ AI community within Schlumberger</i>
-  </li>
-
-  <li>
-    <b>Governor's Prize</b>
-    <span style="float:right; color:#7a7a7a;">2014</span> <br>
-    <i>Ranked 1st of 206 students in Physics at Imperial College London</i>
+    <b>Finalist, Women in AI North America Awards</b>
+    <span style="float:right; color:#7a7a7a;">Mar 2025</span><br>
+    <a href="https://www.womeninai.co/post/finalists-announced-for-women-in-ai-awards-north-america-2025">Announcement</a>
   </li>
 </ul>
 
+---
 
-## Teaching 👨‍🏫
+## 🎤 Speaker Engagements
 
 <ul>
+  <li><b>Houston AI Club</b> <span style="float:right; color:#7a7a7a;">May 2025</span></li>
   <li>
-    Teaching Assistant, SB2.1, Statistical Inference
-    <span style="float:right; color:#7a7a7a;">Oxford, 2020</span> <br>
-  </li>
-
-  <li>
-    Teaching Assistant, SB2.2, Statistical Machine Learning
-    <span style="float:right; color:#7a7a7a;">Oxford, 2019</span> <br>
-  </li>
-
-  <li>
-    Teaching Assistant, CME 102, Ordinary Differential Equations
-    <span style="float:right; color:#7a7a7a;">Stanford, 2016</span> <br>
+    <b>Generative AI & ML in the Enterprise</b> <span style="float:right; color:#7a7a7a;">Feb 2025</span><br>
+    <a href="https://www.datascience.salon/austin/">Data Science Salon</a>
   </li>
 </ul>
 
-## Invited Talks 🏛️
+---
+
+## 🌟 Recognition / Featured
 
 <ul>
   <li>
-    Compression with neural fields
-    <span style="float:right; color:#7a7a7a;">2023</span> <br>
-    <i>VQEG</i>
+    <b>Lilie Accelerator Feature</b> <span style="float:right; color:#7a7a7a;">Jun 2024</span><br>
+    <a href="https://news.rice.edu/news/2024/rice-entrepreneurship-lab-unveils-teams-2024-lilie-summer-venture-studio-accelerator">Rice News</a> |
+    <a href="https://houston.innovationmap.com/rice-university-liu-idea-lab-2024-2668479547.html">InnovationMap</a>
   </li>
-  <li>
-    The Curse of Discretization and Learning Distributions of Functions
-    <span style="float:right; color:#7a7a7a;">2021</span> <br>
-    <i>ML Collective</i>
-  </li>
-  <li>
-    Representational Limitations of Invertible Models
-    <span style="float:right; color:#7a7a7a;">2020</span> <br>
-    <i>ICML 2020, INNF+ Workshop</i>
-  </li>
-  <li>
-    Combining Physics and Machine Learning with Neural ODEs
-    <span style="float:right; color:#7a7a7a;">2019</span> <br>
-    <i>Abingdon, UK</i>
-  </li>
+</ul>
 
-  <li>
-    Deep Learning for Prognostics and Health Management Tutorial
-    <span style="float:right; color:#7a7a7a;">2017</span> <br>
-    <i>Prognostics and Health Management Conference, Tampa Bay, FL</i>
-  </li>
+---
 
+## 🎙️ Podcasts
+
+<ul>
   <li>
-    Deep Learning Applications Panel
-    <span style="float:right; color:#7a7a7a;">2017</span> <br>
-    <i>Prognostics and Health Management Conference, Tampa Bay, FL</i>
+    <b>Don’t Panic Podcast</b> <span style="float:right; color:#7a7a7a;">Feb 2023</span><br>
+    <a href="https://dontpanicpodcast.buzzsprout.com/2029474/episodes/12279537">Listen to the episode</a>
   </li>
 </ul>
