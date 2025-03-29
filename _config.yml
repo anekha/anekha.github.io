@@ -26,6 +26,8 @@ github_username: anekha
 minimal_mistakes_skin: aqua  #default
 search: true
 
+google_analytics: G-1C07F18RT8
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
