@@ -191,7 +191,7 @@ From my testing, **MASt3R-SfM consistently delivers some of the best results** I
 
 ---
 
-## References & Links 📚
+## Resources & Links 📚
 
 - [Paper](https://gaussianobject.github.io/)
 - [GitHub Repository](https://github.com/chensjtu/GaussianObject)
