@@ -15,6 +15,7 @@ tags:
   - Camera Poses
   - Self-supervised learning
   - COLMAP
+  - Computer Vision
 ---
 
 ## Introduction 🔍
@@ -29,6 +30,8 @@ That’s when I came across the paper:
 
 The idea that stood out most was:  
 > *"COLMAP-free 3D object reconstruction with only **4 input images**, using Gaussian Splatting + diffusion repair."*
+
+---
 
 ## Why This Was Exciting
 
@@ -50,7 +53,7 @@ So I gave it a try — running the model across a variety of object image sets (
 - The input images need **some view consistency** — widely differing angles didn’t work well.
 - **Processing more than 12 images** dramatically increased rendering time — 40 images took 12+ hours!
 
-They currently use **MASt3R** for pose estimation, but a new **MASt3R-SfM** (retrieval-based) version is out — I’d love to test how that affects results.
+They currently use **MASt3R** for pose estimation, but a new **MASt3R-SfM** (retrieval-based) version is out — I’d love to test how that affects results. *(Update: I’ve already written project pages on MASt3R and MASt3R-SfM — check them out!)*
 
 ---
 
@@ -58,7 +61,7 @@ They currently use **MASt3R** for pose estimation, but a new **MASt3R-SfM** (ret
 
 GaussianObject consists of multiple stages:
 
-<img src="/assets/projects/gaussiansplatting/gaussianobjectpipeline.png" alt="GaussianObject Pipeline" style="width:100%; border-radius: 8px;">
+![Pipeline](/assets/projects/gaussiansplatting/gaussianobjectpipeline.png)
 
 > 📌 *Diagram from the official [project page](https://gaussianobject.github.io/). All credits to the original authors.*
 
@@ -98,19 +101,21 @@ pip install -r requirements.txt
 cd models
 sh download_preprocess_models.sh
 cd ..
+```
 
-# Structure:
+Use this folder structure:
+```
 GaussianObject/
 └── data/<your_dataset>/
     └── images/
         ├── 0001.png
         ├── 0002.png
-        ├── ...
+        └── ...
     └── sparse_4.txt
     └── sparse_test.txt
 ```
 
-Use SAM to generate masks, and DUST3R/MAST3R to estimate poses:
+Generate masks with `segment_anything.ipynb` and poses with:
 ```bash
 python pred_poses.py -s data/<your_dataset> --sparse_num 4
 ```
@@ -150,7 +155,7 @@ python render.py -m output/gs_init/<your_dataset> \
   --load_ply output/gaussian_object/<your_dataset>/save/last.ply
 ```
 
-> 🧩 See [full GitHub repo](https://github.com/chensjtu/GaussianObject) for command options.
+For full options, visit the [GitHub instructions](https://github.com/chensjtu/GaussianObject#run-the-code).
 
 ---
 
@@ -158,7 +163,31 @@ python render.py -m output/gs_init/<your_dataset> \
 
 Despite the complexity, I was genuinely impressed by the results given so little input (just 4 images!). That said, performance on **reflective, fine-grained, or small-scale objects** still leaves room for improvement.
 
-The reliance on good segmentation and view coverage also means **pose quality still matters**, even in COLMAP-free mode. I’m curious how it’ll perform with the new [**MASt3R-SfM** retrieval model](https://github.com/naver/mast3r/tree/mast3r_sfm).
+The reliance on good segmentation and view coverage also means **pose quality still matters**, even in COLMAP-free mode.
+
+---
+
+## A Note on MASt3R-SfM and Retrieval 🔄
+
+While GaussianObject advertises a COLMAP-free pipeline by using MASt3R or DUSt3R for pose estimation, I became curious about how results might improve using **MASt3R-SfM** — a newer, retrieval-augmented version of the MASt3R pipeline.
+
+### Why this matters:
+
+**1. GaussianObject still benefits from accurate poses**  
+Even in CF mode, they rely on MASt3R — because pose quality heavily impacts rendering.
+
+**2. MASt3R-SfM adds retrieval**  
+It selects the most semantically relevant reference views to improve relative pose prediction, especially useful for sparse or inconsistent input images.
+
+**3. Retrieval enhances robustness**  
+It reduces errors in challenging settings (e.g. varying angles, little overlap), resulting in:
+- Better initial poses
+- Fewer downstream reconstruction issues
+- Improved Gaussian consistency
+
+From my testing, **MASt3R-SfM consistently delivers some of the best results** I’ve seen in sparse-view scenarios — especially with casually captured data.
+
+> 📢 Want to learn more? Check out the dedicated project pages on **MASt3R** and **MASt3R-SfM** for setup, comparisons, and deeper insights.
 
 ---
 
@@ -166,6 +195,7 @@ The reliance on good segmentation and view coverage also means **pose quality st
 
 - [Paper](https://gaussianobject.github.io/)
 - [GitHub Repository](https://github.com/chensjtu/GaussianObject)
+- [MASt3R](https://github.com/naver/mast3r)
 - [MASt3R-SfM](https://github.com/naver/mast3r/tree/mast3r_sfm)
 - [SAM (Segment Anything)](https://github.com/facebookresearch/segment-anything)
 - [Modal](https://modal.com) for GPU cloud execution

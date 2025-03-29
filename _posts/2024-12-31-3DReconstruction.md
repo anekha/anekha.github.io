@@ -15,6 +15,7 @@ tags:
   - Photogrammetry
   - COLMAP
   - Camera Poses
+  - Computer Vision
 ---
 
 ## Introduction 💍
