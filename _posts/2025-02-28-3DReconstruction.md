@@ -1,5 +1,5 @@
 ---
-title: "3D Reconstruction for Ornaments: From Camera Poses to Geometry"
+title: "Exploring 3D Reconstruction: Classical and Deep Learning Approaches"
 date: 2025-03-28
 layout: single
 classes: wide
@@ -7,7 +7,7 @@ categories:
   - research
   - computer vision
   - 3D
-excerpt: "Exploring 3D reconstruction methods for ornaments using photogrammetry, NeRF, Gaussian Splatting, and camera-pose transformers."
+excerpt: "Exploring 3D reconstruction methods using photogrammetry, NeRF, Gaussian Splatting, and camera-pose transformers."
 tags:
   - 3D reconstruction
   - NeRF
@@ -19,88 +19,183 @@ tags:
 
 ## Introduction 💍
 
-One of my current areas of exploration is 3D reconstruction of **ornaments** — specifically jewelry and intricate objects — using only images. This is challenging due to the reflective nature of metals, small surface details, and the lack of standard 3D data.
+It has been a steep and exciting learning curve, but I'm becoming increasingly fascinated by the field of 3D reconstruction. As someone self-taught in this area, I’ve come to appreciate how fundamental 3D assets are to many sectors of AI and digital innovation. Whether you're powering AR/VR applications, simulations, robotics, or gaming — 3D assets form the bedrock.
+
+One of my current areas of exploration is 3D reconstruction of objects using only images. This is challenging due to lighting variation, reflective materials, and lack of standardized metadata.
 
 In this post, I’m documenting my journey through various 3D reconstruction techniques and what I've learned so far.
 
+---
 
-## The Foundation: Camera Poses 🧭
+## What Are 3D Assets?
+
+3D assets are digital representations of objects, environments, or characters in three dimensions. These assets are made up of vertices, edges, and faces that define their geometry, often accompanied by textures and materials to enhance realism.
+
+They are essential for:
+
+- Product visualization
+- Simulation and training
+- Virtual and augmented reality
+- Gaming and film
+- Scientific modeling
+
+### Types of 3D Models and Their Uses
+
+| Type              | Description                                      | Applications                           |
+|-------------------|--------------------------------------------------|----------------------------------------|
+| Mesh Models       | Polygon-based geometry (e.g., .obj, .fbx)        | Gaming, AR/VR, design                  |
+| CAD Models        | Precise, parametric designs                      | Manufacturing, industrial design       |
+| Point Clouds      | Raw 3D data from scanners or photogrammetry      | Mapping, autonomous vehicles           |
+| Volumetric Models | Voxels or implicit surfaces (e.g., NeRF, SDFs)   | Neural rendering, medical imaging      |
+| Parametric Models | Controlled by parameters                         | Customization and product variation    |
+
+---
+
+## Benchmarks & Geometry 📀
+
+**CAD files** remain the gold standard for accuracy:
+- Precision and dimensional consistency
+- Watertight surfaces for fabrication
+
+Neural methods are evolving to close the gap between real-time renderable assets and CAD-level fidelity by incorporating geometric priors.
+
+--- 
+
+### Tools for Creating 3D Assets
+
+| Tool             | Use Case                       | Industries                           |
+|------------------|--------------------------------|--------------------------------------|
+| Rhino            | Precision CAD modeling         | Architecture, industrial design       |
+| Blender          | Open-source mesh modeling      | Film, AR/VR, games                    |
+| ZBrush           | Organic sculpting              | Art, digital sculpture, gaming       |
+| TinkerCAD        | Educational/simple prototyping | Education, hobbyist                  |
+| Autodesk Fusion  | CAD and manufacturing          | Engineering, mechanical design        |
+
+---
+
+## Classical 3D Reconstruction Methods
+
+Traditionally, creating 3D models from images involves photogrammetry or Structure from Motion (SfM) (explained below). This process can be broken into:
+
+### General Steps in Classical Reconstruction
+
+- Estimate camera poses (using metadata, feature matching, or calibration)
+- Generate depth maps or disparity from image pairs
+- Create a sparse point cloud (from matched features)
+- Densify the cloud (via MVS or fusion)
+- Mesh the point cloud to create a surface
+
+These steps are computationally intensive and often brittle due to camera calibration issues, lighting variation, or poor image overlap.
+
+---
+
+### Key Concepts: Structure from Motion vs Multi-View Stereo 🧠
+
+**Structure from Motion (SfM)** is the process of estimating 3D camera poses and sparse 3D points from unordered image sets. It detects and matches keypoints across views and optimizes the solution using bundle adjustment.
+
+**Multi-View Stereo (MVS)** uses known camera poses (from SfM) to compute dense depth maps by triangulating matched pixels across multiple images. MVS is the step that produces the dense geometry required for meshing.
+
+Together, SfM and MVS are the core components of photogrammetry.
+
+---
+
+## The Foundation: Camera Poses 🫭
 
 Everything starts with accurate **camera poses**. Without them, reconstruction fails.
 
-- **COLMAP** is the traditional starting point — great for Structure from Motion (SfM), but it struggles with:
+- [**COLMAP**](https://github.com/colmap/colmap) is a widely used SfM tool but struggles with:
   - Reflective surfaces
-  - Internet-scraped images (no metadata)
-  - Sparse keypoint matching across different views
+  - Images without metadata
+  - Sparse feature matching between views
 
-- **Manual calibration** is tedious and doesn't scale.
+- Manual calibration is time-consuming and doesn’t scale.
 
-- **Transformer-based pose estimators** like **DUST3R**, **Mast3r**, and newer retrieval-augmented models are promising because they:
-  - Don’t require camera metadata
-  - Work on unstructured multi-view images
-  - Leverage global context via attention
+- Transformer-based estimators like [**DUST3R**](https://github.com/naver/mast3r), [**Mast3r**](https://github.com/naver/mast3r), and retrieval-augmented models can:
+  - Estimate poses without EXIF metadata
+  - Work with unordered or weakly related views
+  - Use attention mechanisms for better matching
 
-These models have been a game-changer for me, particularly when working with jewelry images from different angles and sources.
+These models have been transformative in enabling pose estimation from unstructured image sets.
 
+---
 
 ## From Poses to Depth 🕳️
 
-Once you have camera poses, the next step is generating **depth maps** — which are crucial for any reconstruction pipeline.
+Once camera poses are estimated, the next step is generating **depth maps**, which are essential for building point clouds.
 
-- Tools like **MVSNet**, **COLMAP's dense stereo**, or **depth estimation models** help build these maps.
-- Depth maps help create sparse and dense point clouds — but quality varies greatly with lighting, reflections, and occlusions.
+- Tools: MVSNet, COLMAP’s dense stereo, or monocular/stereo depth models
+- Example: [**ZoeDepth**](https://huggingface.co/spaces/shariqfarooq/ZoeDepth)
+- Depth quality can vary due to occlusions, reflectivity, and lighting
 
+---
+
+## Deep Learning Approaches
+
+Deep learning offers an exciting shift: replacing hand-engineered pipelines with trainable models.
+
+**Why this matters:**
+- Scales to unstructured internet images
+- Learns features robust to variation
+- Works without camera metadata
+
+Deep learning pipelines often mirror classical approaches, with neural models now replacing or augmenting each stage:
+
+| Classical Step            | Deep Learning Equivalent                        |
+|---------------------------|--------------------------------------------------|
+| SfM                      | Transformers (e.g., DUST3R, Mast3r)              |
+| MVS                      | Depth estimation networks, MVSNet                |
+| Point Cloud Generation   | Implicit models, NeRFs, Gaussian Splatting       |
+| Surface Meshing          | Implicit surface rendering, marching cubes       |
+
+---
 
 ## Classic vs Modern Methods 🔧
 
 ### 🔹 Traditional Photogrammetry
 - Pipeline: Feature Matching → SfM → MVS → Meshing
-- Tools: COLMAP, Meshroom, Agisoft Metashape
-- Limitations: Breaks under poor texture, shiny surfaces, sparse views
+- Tools: COLMAP, Meshroom, Agisoft
+- Weaknesses: Textureless areas, shiny surfaces, inconsistent viewpoints
 
 ### 🔸 Neural Rendering
-- **NeRF** opened the door for implicit reconstruction, using neural networks to learn scene radiance fields.
-- However, training NeRFs is slow and often doesn’t generalize well to new scenes.
+- **NeRF**: Learns volumetric radiance field from image set
+- Pros: High visual quality
+- Cons: Slow training, limited generalization
 
-### 🔸 Gaussian Splatting (2023+)
-- A faster, more efficient alternative to NeRF
-- Better real-time performance and quality tradeoff
-- Works well with known camera poses
+### 🔸 Gaussian Splatting ([Repo](https://github.com/graphdeco-inria/gaussian-splatting))
+- Fast, real-time alternative to NeRF
+- Uses 3D Gaussians to render scenes
+- More efficient and robust with known poses
 
-
-## Benchmarks & Geometry 📐
-
-When thinking about reconstruction quality, one benchmark is **CAD models**. They're:
-- Precise
-- Watertight
-- Manufacturing-ready
-
-But most real-world pipelines can’t match that fidelity — yet.
-
-I’m especially interested in how **geometry-aware neural fields** (e.g., combining geometry priors with implicit representations) can bridge this gap.
-
+---
 
 ## Ongoing Exploration 🔬
 
-I'm still actively exploring this space, looking at both:
-- **Monocular reconstruction**: depth-from-single-image (e.g., DPT, Midas)
-- **Multi-view reconstruction**: SfM + MVS + NeRF or Gaussian Splatting
+I'm actively exploring both:
+- **Monocular reconstruction**: DPT, MiDaS, ZoeDepth
+- **Multi-view pipelines**: SfM + MVS + NeRF or Gaussian Splatting
 
-There are exciting open-source models from:
-- **Stability AI** (on Hugging Face)
-- **Tencent**
-- **Mast3r / Dust3r** stack
+Open-source repos worth checking out:
+- [COLMAP](https://github.com/colmap/colmap)
+- [Mast3r](https://github.com/naver/mast3r)
+- [Mast3r SFM](https://github.com/naver/mast3r/tree/mast3r_sfm)
+- [Gaussian Splatting](https://github.com/graphdeco-inria/gaussian-splatting)
+- [ZoeDepth (Hugging Face)](https://huggingface.co/spaces/shariqfarooq/ZoeDepth)
+- [Stability AI: Virtual Camera](https://huggingface.co/spaces/stabilityai/stable-virtual-camera)
+- [Tencent Hunyuan3D](https://huggingface.co/spaces/tencent/Hunyuan3D-2mv)
 
+---
 
 ## Inspiration 💡
-One blog that helped me early on:
+
+A great read that helped me early on:
 - [Photogrammetry Explained: From Multi-View Stereo to SfM](https://pyimagesearch.com/2024/10/14/photogrammetry-explained-from-multi-view-stereo-to-structure-from-motion/)
 
+---
 
 ## What’s Next?
-I'm continuing to prototype different pipelines and evaluate which combination of camera pose recovery, depth estimation, and neural rendering yields the best quality for **high-fidelity, small-object reconstructions**.
 
-This is especially important for **jewelry**, where even 0.1mm deviations matter.
+I'm continuing to prototype pipelines to test which combinations of pose estimation, depth recovery, and neural rendering yield the best quality.
 
-Let me know if you're working on similar problems — I’d love to compare notes!
+This work could help unlock scalable, high-fidelity 3D asset pipelines for real-world applications across industries.
 
+Stay tuned for deeper dives into camera pose estimation, depth prediction, and neural rendering. 💎
