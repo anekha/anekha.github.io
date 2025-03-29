@@ -3,7 +3,7 @@ title: "The Student Forecaster Model"
 excerpt: "A Streamlit app that predicts student academic performance using socio-economic and behavioral data."
 date: 2024-08-15
 layout: single
-class: wide
+classes: wide
 categories:
   - machine-learning
 tags:

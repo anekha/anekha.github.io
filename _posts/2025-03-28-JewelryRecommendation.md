@@ -3,7 +3,7 @@ title: "Jewelry Recommendation System"
 excerpt: "A Streamlit-powered app that recommends jewelry using facial features and color analysis."
 date: 2025-03-28
 layout: single
-class: wide
+classes: wide
 categories:
   - machine-learning
 tags:
