@@ -1,6 +1,6 @@
 ---
 title: "Exploring GaussianObject: 3D Reconstruction from Sparse Views"
-date: 2025-03-28
+date: 2025-01-31
 layout: single
 classes: wide
 categories:
