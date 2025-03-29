@@ -2,6 +2,8 @@
 title: "The Student Forecaster Model"
 excerpt: "A Streamlit app that predicts student academic performance using socio-economic and behavioral data."
 date: 2024-08-15
+layout: single
+class: wide
 categories:
   - machine-learning
 tags:
@@ -9,7 +11,6 @@ tags:
   - streamlit
   - data-analysis
   - visualization
-classes: wide
 ---
 
 As part of the **Le Wagon Bootcamp**, this was my final group project:
