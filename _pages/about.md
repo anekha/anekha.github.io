@@ -2,6 +2,7 @@
 title: ""
 permalink: /
 layout: single
+classes: wide 
 author_profile: true
 no_meta: true
 classes: wide

@@ -1,6 +1,7 @@
 ---
 title: Achievements
 layout: single
+classes: wide
 permalink: /achievements/
 author_profile: true
 ---
