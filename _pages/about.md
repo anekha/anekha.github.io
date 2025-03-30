@@ -42,7 +42,6 @@ Let’s build the future of immersive AI experiences together 🌍✨
 
 > 👉🏽 **Check out my latest projects** — including collaborations with [**NASA**](https://www.nasa.gov/johnson/), [**Stability AI**](https://stability.ai), [**JewelVision**](https://www.jewelvision.ai), and the [**Computer Vision Research Lab at Rice**](https://vision.rice.edu/).  
 > See the full list on my [**Projects page**](/projects/).
-
 {: .notice--info}
 
 I also love **spreading AI knowledge**, sharing what I learn, and connecting with others in the industry. 🤝💬
