@@ -13,7 +13,7 @@ classes: wide
 
 Hi, I’m Anekha — currently completing my Master’s in Data Science at **Rice University** in Houston, Texas, where I specialize in **Computer Vision** through the **Fulbright Elsevier UK-US Scholarship**.
 
-I'm developing an **object detection deep learning model** in collaboration with **NASA**, and conducting **3D reconstruction research** in partnership with **Stability AI** as part of the Computer Vision Research Lab at Rice.
+I'm developing an **object detection deep learning model** in collaboration with **NASA**, and conducting **3D reconstruction research** in partnership with [**Stability AI**](https://stability.ai) as part of the Computer Vision Research Lab at Rice.
 
 <details>
   <summary><strong>Click to read more</strong></summary>
