@@ -1,8 +1,8 @@
 ---
-title: "Achievements"
+title: "Press & Awards"
 layout: single
 classes: wide
-permalink: /achievements/
+permalink: /press&awards/
 author_profile: true
 ---
 
