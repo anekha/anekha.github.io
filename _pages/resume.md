@@ -7,7 +7,7 @@ author_profile: true
 
 <!-- taken from https://emiliendupont.github.io/resume/  -->
 
-For more details, you can download the PDF version of my resume 📄 [here](/assets/RESUME_SOKHAL_ANEKHA_Mar25.pdf) (updated March 2025).
+For more details, you can download the PDF version of my resume 📄 [here](/assets/RESUME_SOKHAL_ANEKHA_APR25.pdf) (updated March 2025).
 
 ## Education 🎓
 

@@ -11,7 +11,7 @@ author_profile: true
 <ul>
   <li>
     <b>Fulbright Elsevier Award</b>
-    <span style="float:right; color:#7a7a7a;">Aug 2023</span><br>
+    <span style="float:right; color:#7a7a7a;">2024–2025</span><br>
     <i>UK-US Fulbright Elsevier Data Analytics Award</i><br>
     <a href="https://fulbright.org.uk/people-search/anekha-sokhal/" target="_blank">Fulbright UK</a> |
     <a href="https://fulbright.rice.edu/people/anekha-sokhal" target="_blank">Rice Profile</a> |
