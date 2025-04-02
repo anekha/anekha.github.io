@@ -23,5 +23,6 @@ __pycache__/
 *.pyc
 
 # videos
-/assets/projects/NASA/dataset.mp4
+*.mp4
+
 
