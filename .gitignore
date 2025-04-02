@@ -1,4 +1,23 @@
-_site
-.sass-cache
+
+# macOS system files
+.DS_Store
+
+# Jekyll build output
+_site/
+.sass-cache/
+.jekyll-cache/
 .jekyll-metadata
+
+# Ruby bundler
 Gemfile.lock
+
+# VSCode or editor config files (optional)
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Python cache (if you ever use Python scripts)
+__pycache__/
+*.pyc
