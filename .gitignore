@@ -21,3 +21,7 @@ Gemfile.lock
 # Python cache (if you ever use Python scripts)
 __pycache__/
 *.pyc
+
+# videos
+/assets/projects/NASA/dataset.mp4
+
