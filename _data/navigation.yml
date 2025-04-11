@@ -1,0 +1,10 @@
+main:
+  - title: "Projects"
+    url: /projects/
+  - title: "Publications"
+    url: /publications/
+  - title: "Press & Awards"
+    url: /press&awards/
+  - title: "Resume"
+    url: /resume/
+
