@@ -14,10 +14,9 @@ classes: wide
 
 <!-- I'm developing an **object detection deep learning model** in collaboration with [**NASA**](https://www.nasa.gov/johnson/), and conducting **3D reconstruction research** in partnership with [**Stability AI**](https://stability.ai) as part of the [**Computer Vision Research Lab at Rice**](https://vision.rice.edu/).  -->
 
-## About Me ☁️
-
 > **AI engineer. [Fulbright Scholar](https://fulbright.org.uk/people-search/anekha-sokhal/). Ex-JP Morgan trader.**  
 > I build real-world AI — from [NASA](https://www.nasa.gov/johnson/) crater detection to generative 3D startups.
+{: .notice--success}
 
 I led NASA’s crater detection research (93% precision for spacecraft navigation), am advancing 3D reconstruction research in collaboration with [Stability AI](https://stability.ai) at Rice University, and founded [JewelVision](https://jewelvision.ai/) — reimagining how 3D products are created for immersive experiences like virtual try-on.
 
