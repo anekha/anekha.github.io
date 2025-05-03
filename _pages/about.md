@@ -10,9 +10,21 @@ classes: wide
 
 ## About Me ☁️ 
 
-Hi, I’m Anekha — currently completing my Master’s in Data Science at [**Rice University**](https://csweb.rice.edu/academics/graduate-programs/professional-master-data-science) in Houston, Texas, where I specialize in **Computer Vision** through the [**Fulbright Elsevier UK-US Scholarship**](https://fulbright.org.uk/people-search/anekha-sokhal/).
+<!-- Hi, I’m Anekha — currently completing my Master’s in Data Science at [**Rice University**](https://csweb.rice.edu/academics/graduate-programs/professional-master-data-science) in Houston, Texas, where I specialize in **Computer Vision** through the [**Fulbright Elsevier UK-US Scholarship**](https://fulbright.org.uk/people-search/anekha-sokhal/).   -->
 
-I'm developing an **object detection deep learning model** in collaboration with [**NASA**](https://www.nasa.gov/johnson/), and conducting **3D reconstruction research** in partnership with [**Stability AI**](https://stability.ai) as part of the [**Computer Vision Research Lab at Rice**](https://vision.rice.edu/).
+<!-- I'm developing an **object detection deep learning model** in collaboration with [**NASA**](https://www.nasa.gov/johnson/), and conducting **3D reconstruction research** in partnership with [**Stability AI**](https://stability.ai) as part of the [**Computer Vision Research Lab at Rice**](https://vision.rice.edu/).  -->
+
+## About Me ☁️
+
+> **AI engineer. [Fulbright Scholar](https://fulbright.org.uk/people-search/anekha-sokhal/). Ex-JP Morgan trader.**  
+> I build real-world AI — from [NASA](https://www.nasa.gov/johnson/) crater detection to generative 3D startups.
+
+I led NASA’s crater detection research (93% precision for spacecraft navigation), am advancing 3D reconstruction research in collaboration with [Stability AI](https://stability.ai) at Rice University, and founded [JewelVision](https://jewelvision.ai/) — reimagining how 3D products are created for immersive experiences like virtual try-on.
+
+My career’s always been anchored in data — from modeling financial risk as a derivatives trader at JP Morgan to training deep learning systems for multimodal AI. I bring a unique mix of technical depth, product strategy, and **cross-industry experience** — spanning finance, aerospace, and e-commerce.
+
+🎤 Regular speaker in the US AI scene.  
+🛠️I’m especially interested in building **multimodal systems that enhance human-AI collaboration** — tools that are both technically rigorous and socially meaningful.
 
 <details>
   <summary><strong>Click to read more</strong></summary>
