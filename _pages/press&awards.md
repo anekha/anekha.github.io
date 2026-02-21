@@ -47,6 +47,30 @@ author_profile: true
     Presented applications of generative AI and computer vision in e-commerce at the 
     <a href="https://www.datascience.salon/austin/" target="_blank">Data Science Salon</a>.
   </li>
+
+  <li>
+    <b>Mercury Fund Day at the Ion</b>
+    <span style="float:right; color:#7a7a7a;">Feb 2026</span><br>
+    Panel speaker on "The New FDE Model: How to Deploy with Scale in Legacy Industries", hosted by the Ion and Mercury Fund.
+  </li>
+
+  <li>
+    <b>Lilie Founders Journey</b>
+    <span style="float:right; color:#7a7a7a;">Feb 2026</span><br>
+    Guest speaker in the Founders Journey class at <a href="https://entrepreneurship.rice.edu/" target="_blank">Rice Entrepreneurship</a>, filmed as a Lilie podcast episode.
+  </li>
+
+  <li>
+    <b>Rice MDS Student–Alumni Panel</b>
+    <span style="float:right; color:#7a7a7a;">Dec 2025</span><br>
+    Panelist at the Master of Data Science student–alumni discussion, invited by Dr. Marmar Orooji.
+  </li>
+
+  <li>
+    <b>NRLC 2026 Judge</b>
+    <span style="float:right; color:#7a7a7a;">Mar 2026</span><br>
+    Judge at the <a href="https://entrepreneurship.rice.edu/napier-rice-launch-challenge" target="_blank">Napier Rice Launch Challenge 2026</a>.
+  </li>
 </ul>
 
 <!-- Side-by-side images -->
@@ -117,5 +141,11 @@ author_profile: true
     <b>Don’t Panic Podcast</b> 
     <span style="float:right; color:#7a7a7a;">Feb 2023</span><br>
     <a href="https://dontpanicpodcast.buzzsprout.com/2029474/episodes/12279537" target="_blank">Listen to the episode</a>
+  </li>
+
+  <li>
+    <b>Lilie Founders Journey Podcast</b>
+    <span style="float:right; color:#7a7a7a;">Feb 2026</span><br>
+    Featured episode from the Founders Journey class at <a href="https://entrepreneurship.rice.edu/" target="_blank">Rice Entrepreneurship</a>.
   </li>
 </ul>

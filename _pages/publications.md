@@ -10,8 +10,11 @@ author_profile: true
 
 <ul>
   <li>
-    <b>Ongoing Submission to NeurIPS & ICCV 2025</b><br>
-    I am currently co-authoring a paper on 3D reconstruction as part of the <a href="https://vision.rice.edu/" target="_blank"><b>Computer Vision Research Lab at Rice University</b></a>, in collaboration with researchers at <a href="https://stability.ai/" target="_blank"><b>Stability AI</b></a>.
+    <b>GIQ: Benchmarking 3D Geometric Reasoning of Vision Foundation Models with Simulated and Real Polyhedra</b>
+    <span style="float:right; color:#7a7a7a;">ICLR 2026</span><br>
+    Anekha Sokhal, Mateusz Michalkiewicz, Varun Jampani, Guha Balakrishnan, Tadeusz Michalkiewicz, Piotr Pawlikowski, Mahsa Baktashmotlagh<br>
+    <a href="https://openreview.net/forum?id=SrhJFePI8G" target="_blank">Paper</a> |
+    <a href="https://vision.rice.edu/" target="_blank">Computer Vision Research Lab at Rice</a>
   </li>
 </ul>
 

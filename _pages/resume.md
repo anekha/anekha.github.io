@@ -23,9 +23,9 @@ For more details, you can download the PDF version of my resume 📄 [here](/ass
       <b style="font-size: 130%;">Rice University</b>
       <span style="float:right; color:#7a7a7a;">2023 - 2025</span>
     </p>
-    Masters in Data Science, Computer Vision Specialisation<br>
+    Professional Masters in Data Science, Machine Learning & Computer Vision Specialisation<br>
     <p style="color:#7a7a7a">
-      UK-US Fulbright Elsevier Data Analytics Award (2023–2024)
+      UK-US Fulbright Elsevier Data Analytics Award (2023) | IBM AI Fellowship Nominee (2024) | Women in AI NA Finalist (2025)
     </p>
   </div>
 
@@ -55,6 +55,28 @@ For more details, you can download the PDF version of my resume 📄 [here](/ass
 
 ## Experience 👨‍💼
 
+<!-- Moshi -->
+<div style="display:flex;">
+
+  <div style="flex:0.5; padding-right:5%">
+    <img src="{{ site.url }}/assets/resume/moshi.png" style="align:left; border: 1px solid #d3d3d3; border-style: outset;">
+  </div>
+
+  <div style="flex:4;">
+    <p style="margin:0px">
+      <b style="font-size: 130%;">Moshi</b>
+      <span style="float:right; color:#7a7a7a;">Jun 2025 - Present</span>
+    </p>
+    Founder & Lead ML Engineer<br>
+    <p style="color:#7a7a7a">
+        VC-backed. Building 24/7 agentic quant analysts for financial markets. Live with institutional, fund, and corporate pilot customers in 5 months. Team of 5.<br>
+      🌐 <a href="https://www.moshi.team/" target="_blank">moshi.team</a>
+    </p>
+  </div>
+
+</div>
+
+
 <!-- JewelVision -->
 <div style="display:flex;">
 
@@ -65,11 +87,11 @@ For more details, you can download the PDF version of my resume 📄 [here](/ass
   <div style="flex:4;">
     <p style="margin:0px">
       <b style="font-size: 130%;">JewelVision</b>
-      <span style="float:right; color:#7a7a7a;">Jan 2024 - </span>
+      <span style="float:right; color:#7a7a7a;">Jan 2024 - Dec 2024</span>
     </p>
-    Research Scientist, Founder<br>
+    Founder & Lead AI Engineer<br>
     <p style="color:#7a7a7a">
-        AI-driven 3D asset generation & virtual try-ons for e-commerce<br>
+        Selected as 1 of 8 startups for Rice's Liu Idea Lab Summer Venture Studio. Built 3D asset generation and AR virtual try-on tools using multimodal AI. Raised $18K in funding.<br>
       🌐 <a href="https://jewelvision.ai" target="_blank">jewelvision.ai</a> •  
       🎤 <a href="https://www.youtube.com/live/WCl0LXecB_Y?si=emex9cpeQKH6F6dd" target="_blank">Accelerator Pitch Demo Day</a>
     </p>
@@ -134,9 +156,9 @@ For more details, you can download the PDF version of my resume 📄 [here](/ass
       <b style="font-size: 130%;">Rice University & NASA</b>
       <span style="float:right; color:#7a7a7a;">Jan 2025 - May 2025</span>
     </p>
-    AI/ML Engineer & Researcher<br>
+    AI/ML Engineer<br>
     <p style="color:#7a7a7a">
-      Developed deep learning models for lunar crater detection to support autonomous spacecraft navigation
+      Achieved 93% precision in spacecraft localization via a deep learning pipeline using Python and PyTorch. Designed and compared YOLO + Ellipse R-CNN vs. YOLO + geometry-based fitting. Delivered CPU-optimized models to NASA Houston.
     </p>
   </div>
 
@@ -152,11 +174,11 @@ For more details, you can download the PDF version of my resume 📄 [here](/ass
   <div style="flex:4;">
     <p style="margin:0px">
       <b style="font-size: 130%;">Rice University & Stability AI</b>
-      <span style="float:right; color:#7a7a7a;">Sep 2024 - Present</span>
+      <span style="float:right; color:#7a7a7a;">Sep 2024 - May 2025</span>
     </p>
     Computer Vision Researcher<br>
     <p style="color:#7a7a7a">
-      Benchmarked multi-view 3D reconstruction models and built synthetic datasets for academic evaluation
+      Paper accepted at <b>ICLR 2026</b>: <a href="https://openreview.net/forum?id=SrhJFePI8G" target="_blank">GIQ: Benchmarking 3D Geometric Reasoning of Vision Foundation Models</a>. Built benchmark revealing vision models struggle with basic 3D geometric reasoning.
     </p>
   </div>
 
@@ -229,6 +251,10 @@ See more on my [Projects page](/projects).
   <li>
     <b>Participant</b><br>
     <i>Women in Leadership Program, Doerr Institute, Rice University (2024) – Completed executive coaching and leadership development</i>
+  </li>
+  <li>
+    <b>The Ring, Fulbright@Rice</b><br>
+    <i>Rice University (Sep 2024 – May 2025) – Planned calendar of activities, coordinated events, and advised the GPS office on programming for 100+ international scholars</i>
   </li>
 </ul>
 

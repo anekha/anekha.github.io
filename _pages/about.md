@@ -14,15 +14,17 @@ classes: wide
 
 <!-- I'm developing an **object detection deep learning model** in collaboration with [**NASA**](https://www.nasa.gov/johnson/), and conducting **3D reconstruction research** in partnership with [**Stability AI**](https://stability.ai) as part of the [**Computer Vision Research Lab at Rice**](https://vision.rice.edu/).  -->
 
-> **AI engineer. [Fulbright Scholar](https://fulbright.org.uk/people-search/anekha-sokhal/). Ex-JP Morgan trader.**  
-> I build real-world AI — from [NASA](https://www.nasa.gov/johnson/) crater detection to generative 3D startups.
+> **AI engineer. [Fulbright Scholar](https://fulbright.org.uk/people-search/anekha-sokhal/). Ex-JP Morgan trader.**
+> Founder & Lead ML Engineer at [Moshi](https://www.moshi.team/) — building agentic quant analysts for financial markets.
 {: .notice--success}
 
-I led NASA’s crater detection research (93% precision for spacecraft navigation), am advancing 3D reconstruction research in collaboration with [Stability AI](https://stability.ai) at Rice University, and founded [JewelVision](https://jewelvision.ai/) — reimagining how 3D products are created for immersive experiences like virtual try-on.
+I’m the founder of [**Moshi**](https://www.moshi.team/) — VC-backed, live with institutional, fund, and corporate pilot customers in 5 months, and grown to a team of 5 in 6 months. Moshi delivers 24/7 agentic quant analysts for financial markets.
+
+Previously, I led [NASA](https://www.nasa.gov/johnson/)’s crater detection research (93% precision for spacecraft navigation), advanced 3D reconstruction research with [Stability AI](https://stability.ai) at Rice University, and founded [JewelVision](https://jewelvision.ai/) — building 3D asset generation and virtual try-on tools for e-commerce. Our ICLR 2026 paper, [**GIQ**](https://openreview.net/forum?id=SrhJFePI8G), benchmarks 3D geometric reasoning in vision foundation models.
 
 My career’s always been anchored in data — from modeling financial risk as a derivatives trader at JP Morgan to training deep learning systems for multimodal AI. I bring a unique mix of technical depth, product strategy, and **cross-industry experience** — spanning finance, aerospace, and e-commerce.
 
-🎤 Regular speaker in the US AI scene.  
+🎤 Regular speaker and judge in the US AI and entrepreneurship scene.  
 🛠️I’m especially interested in building **multimodal systems that enhance human-AI collaboration** — tools that are both technically rigorous and socially meaningful.
 
 <details>
@@ -54,21 +56,17 @@ My career’s always been anchored in data — from modeling financial risk as a
 </details>
 ---
 
-## What I'm Into Now 🚀
+## What I’m Into Now 🚀
 
-My research focuses on **multi-view 3D reconstruction**, **generative models**, and **multimodal AI applications**. I'm also exploring new areas of computer vision that excite me every day.
+I’m focused on building [**Moshi**](https://www.moshi.team/) — bringing institutional-grade quantitative analysis to financial markets through agentic AI. I’m also a published researcher, with our paper on 3D geometric reasoning accepted at **ICLR 2026**.
 
-I’ve led projects with cross-functional teams, built technical prototypes, pitched to investors, and spoken at AI events. I’m passionate about applying cutting-edge research to real-world creative industries — especially fashion, jewelry, and design — and using **data to drive better decisions**. 
+I’ve led projects with cross-functional teams, built technical prototypes, raised VC funding, and spoken at AI and entrepreneurship events. I’m passionate about applying cutting-edge AI to solve real-world problems — and using **data to drive better decisions**.
 
-Let’s build the future of immersive AI experiences together 🌍✨
-
-> 👉🏽 **Check out my latest projects** — including collaborations with [**NASA**](https://www.nasa.gov/johnson/), [**Stability AI**](https://stability.ai), [**JewelVision**](https://www.jewelvision.ai), and the [**Computer Vision Research Lab at Rice**](https://vision.rice.edu/).  
+> 👉🏽 **Check out my latest projects** — including [**Moshi**](https://www.moshi.team/), collaborations with [**NASA**](https://www.nasa.gov/johnson/), [**Stability AI**](https://stability.ai), and the [**Computer Vision Research Lab at Rice**](https://vision.rice.edu/).  
 > See the full list on my [**Projects page**](/projects/).
 {: .notice--info}
 
 I also love **spreading AI knowledge**, sharing what I learn, and connecting with others in the industry. 🤝💬
-
-Let’s build the future of immersive AI experiences together 🌍✨
 
 ---
 
