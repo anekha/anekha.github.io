@@ -2,10 +2,9 @@
 title: ""
 permalink: /
 layout: single
-classes: wide 
+classes: wide
 author_profile: true
 no_meta: true
-classes: wide
 ---
 
 ## About Me ☁️ 
@@ -54,6 +53,7 @@ My career’s always been anchored in data — from modeling financial risk as a
   <p>I joined the <strong><a href="https://www.lewagon.com/data-science-course">Le Wagon bootcamp</a></strong> to build a strong foundation in data science and reignite my Python programming. Wanting to make a real difference using data, I felt driven to understand <em>what to build</em> — which led me to being awarded a <strong>Fulbright Scholarship</strong>, and eventually to Rice, where I founded <strong><a href="https://www.jewelvision.ai/">JewelVision</a></strong> — a startup building <strong>3D assets and virtual try-on experiences</strong> using computer vision and generative AI for e-commerce brands. 💍✨</p>
 
 </details>
+
 ---
 
 ## What I’m Into Now 🚀
