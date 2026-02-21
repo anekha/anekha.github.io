@@ -139,15 +139,15 @@ author_profile: true
 
 <ul>
   <li>
-    <b>Lilie Founders Journey Podcast</b>
-    <span style="float:right; color:#7a7a7a;">Feb 2026</span><br>
-    Featured episode from the Founders Journey class at <a href="https://entrepreneurship.rice.edu/" target="_blank">Rice Entrepreneurship</a>.
-  </li>
-
-  <li>
     <b>AI After Dark Podcast</b>
     <span style="float:right; color:#7a7a7a;">Feb 2026</span><br>
     Guest on the <a href="https://app.collide.io/content/" target="_blank">AI After Dark</a> podcast, hosted by Alex Gras at <a href="https://www.collide.io/" target="_blank">Collide</a> and Mercury Fund.
+  </li>
+
+  <li>
+    <b>Lilie Founders Journey Podcast</b>
+    <span style="float:right; color:#7a7a7a;">Feb 2026</span><br>
+    Featured episode from the Founders Journey class at <a href="https://entrepreneurship.rice.edu/" target="_blank">Rice Entrepreneurship</a>.
   </li>
 
   <li>
