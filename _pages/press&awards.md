@@ -144,6 +144,12 @@ author_profile: true
   </li>
 
   <li>
+    <b>AI After Dark Podcast</b>
+    <span style="float:right; color:#7a7a7a;">Feb 2026</span><br>
+    Guest on the <a href="https://app.collide.io/content/" target="_blank">AI After Dark</a> podcast, hosted by Alex Gras at <a href="https://www.collide.io/" target="_blank">Collide</a> and Mercury Fund.
+  </li>
+
+  <li>
     <b>Don’t Panic Podcast</b>
     <span style="float:right; color:#7a7a7a;">Feb 2023</span><br>
     <a href="https://dontpanicpodcast.buzzsprout.com/2029474/episodes/12279537" target="_blank">Listen to the episode</a>
