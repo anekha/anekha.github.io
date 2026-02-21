@@ -69,7 +69,7 @@ For more details, you can download the PDF version of my resume 📄 [here](/ass
     </p>
     Founder & Lead ML Engineer<br>
     <p style="color:#7a7a7a">
-        VC-backed. Building 24/7 agentic quant analysts for financial markets. Live with institutional, fund, and corporate pilot customers in 5 months. Team of 5.<br>
+        VC-backed. Building 24/7 agentic quant analysts for financial markets. Live with institutional, fund, and corporate pilot customers. Team of 5 in 6 months.<br>
       🌐 <a href="https://www.moshi.team/" target="_blank">moshi.team</a>
     </p>
   </div>
