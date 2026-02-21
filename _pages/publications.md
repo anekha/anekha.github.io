@@ -31,23 +31,6 @@ author_profile: true
 
 ---
 
-## 💬 Talks, Podcasts & Press Features
+## 💬 Talks, Podcasts & Press
 
-> For a complete list of awards, speaking engagements, and features, see [Press & Awards](/press&awards/).
-
-<ul>
-  <li>
-    <a href="https://www.houstonaiclub.com/" target="_blank"><b>Houston AI Club</b></a> <span style="float:right; color:#7a7a7a;">May 2025</span><br>
-    Presented a computer vision talk to Houston’s largest AI meetup community, attended by over 100 professionals.
-  </li>
-
-  <li>
-    <b>Generative AI & ML in the Enterprise</b> <span style="float:right; color:#7a7a7a;">Feb 2025</span><br>
-    Shared applications of generative AI and computer vision in virtual try-on tech for e-commerce at the <a href="https://www.datascience.salon/austin/">Data Science Salon</a>.
-  </li>
-
-  <li>
-    <b>Don’t Panic Podcast</b> <span style="float:right; color:#7a7a7a;">Feb 2023</span><br>
-    <a href="https://dontpanicpodcast.buzzsprout.com/2029474/episodes/12279537">Listen to the episode</a>
-  </li>
-</ul>
+> For speaking engagements, podcasts, and press features, see [**Press & Awards**](/press&awards/).

@@ -36,16 +36,9 @@ author_profile: true
 
 <ul>
   <li>
-    <a href="https://www.houstonaiclub.com/" target="_blank"><b>Houston AI Club</b></a> 
-    <span style="float:right; color:#7a7a7a;">May 2025</span><br>
-    Invited speaker at Houston’s largest AI meetup community.
-  </li>
-
-  <li>
-    <b>Generative AI & ML in the Enterprise</b> 
-    <span style="float:right; color:#7a7a7a;">Feb 2025</span><br>
-    Presented applications of generative AI and computer vision in e-commerce at the 
-    <a href="https://www.datascience.salon/austin/" target="_blank">Data Science Salon</a>.
+    <b>NRLC 2026 Judge</b>
+    <span style="float:right; color:#7a7a7a;">Mar 2026</span><br>
+    Judge at the <a href="https://entrepreneurship.rice.edu/napier-rice-launch-challenge" target="_blank">Napier Rice Launch Challenge 2026</a>.
   </li>
 
   <li>
@@ -67,9 +60,16 @@ author_profile: true
   </li>
 
   <li>
-    <b>NRLC 2026 Judge</b>
-    <span style="float:right; color:#7a7a7a;">Mar 2026</span><br>
-    Judge at the <a href="https://entrepreneurship.rice.edu/napier-rice-launch-challenge" target="_blank">Napier Rice Launch Challenge 2026</a>.
+    <a href="https://www.houstonaiclub.com/" target="_blank"><b>Houston AI Club</b></a>
+    <span style="float:right; color:#7a7a7a;">May 2025</span><br>
+    Invited speaker at Houston’s largest AI meetup community.
+  </li>
+
+  <li>
+    <b>Generative AI & ML in the Enterprise</b>
+    <span style="float:right; color:#7a7a7a;">Feb 2025</span><br>
+    Presented applications of generative AI and computer vision in e-commerce at the
+    <a href="https://www.datascience.salon/austin/" target="_blank">Data Science Salon</a>.
   </li>
 </ul>
 
@@ -138,14 +138,14 @@ author_profile: true
 
 <ul>
   <li>
-    <b>Don’t Panic Podcast</b> 
-    <span style="float:right; color:#7a7a7a;">Feb 2023</span><br>
-    <a href="https://dontpanicpodcast.buzzsprout.com/2029474/episodes/12279537" target="_blank">Listen to the episode</a>
-  </li>
-
-  <li>
     <b>Lilie Founders Journey Podcast</b>
     <span style="float:right; color:#7a7a7a;">Feb 2026</span><br>
     Featured episode from the Founders Journey class at <a href="https://entrepreneurship.rice.edu/" target="_blank">Rice Entrepreneurship</a>.
+  </li>
+
+  <li>
+    <b>Don’t Panic Podcast</b>
+    <span style="float:right; color:#7a7a7a;">Feb 2023</span><br>
+    <a href="https://dontpanicpodcast.buzzsprout.com/2029474/episodes/12279537" target="_blank">Listen to the episode</a>
   </li>
 </ul>
