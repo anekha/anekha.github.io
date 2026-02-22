@@ -245,16 +245,12 @@ See more on my [Projects page](/projects).
 ## Academic Services 📚
 <ul>
   <li>
-    <b>Committee Member</b><br>
-    <i>Fulbright Leadership Committee, Rice University (2023 – Present) – Supported event planning and community engagement for 100+ international scholars</i>
+    <b>Fulbright Leadership Committee</b><br>
+    <i>Rice University (Sep 2024 – May 2025) – Planned calendar of activities, coordinated events, and advised the GPS office on programming for 100+ international scholars</i>
   </li>
   <li>
     <b>Participant</b><br>
     <i>Women in Leadership Program, Doerr Institute, Rice University (2024) – Completed executive coaching and leadership development</i>
-  </li>
-  <li>
-    <b>The Ring, Fulbright@Rice</b><br>
-    <i>Rice University (Sep 2024 – May 2025) – Planned calendar of activities, coordinated events, and advised the GPS office on programming for 100+ international scholars</i>
   </li>
 </ul>
 
