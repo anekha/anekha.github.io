@@ -90,10 +90,22 @@ author_profile: true
 
 <ul>
   <li>
-    <b>Lilie Accelerator Feature</b> 
+    <b>Lilie Accelerator Feature</b>
     <span style="float:right; color:#7a7a7a;">Jun 2024</span><br>
     <a href="https://news.rice.edu/news/2024/rice-entrepreneurship-lab-unveils-teams-2024-lilie-summer-venture-studio-accelerator" target="_blank">Rice News</a> |
     <a href="https://houston.innovationmap.com/rice-university-liu-idea-lab-2024-2668479547.html" target="_blank">InnovationMap</a>
+  </li>
+
+  <li>
+    <b>Lilie Showcases 8 Student Startups</b>
+    <span style="float:right; color:#7a7a7a;">2024</span><br>
+    <a href="https://news.rice.edu/news/2024/lilie-showcases-8-student-startups-are-making-difference-their-industries" target="_blank">Rice News</a>
+  </li>
+
+  <li>
+    <b>Meet the 2024 Summer Venture Studio Cohort</b>
+    <span style="float:right; color:#7a7a7a;">2024</span><br>
+    <a href="https://entrepreneurship.rice.edu/blog/meet-the-2024-summer-venture-studio-cohort" target="_blank">Rice Entrepreneurship Blog</a>
   </li>
 </ul>
 
