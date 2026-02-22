@@ -259,7 +259,8 @@ See more on my [Projects page](/projects).
 ## Advisory 🤝
 <ul>
   <li>
-    <b>Advisor, Quicksilver AI Labs, Inc.</b>
-    <span style="float:right; color:#7a7a7a;">Dec 2025 – Present</span>
+    <b>AI Advisor, Quicksilver AI Labs, Inc.</b>
+    <span style="float:right; color:#7a7a7a;">Dec 2025 – Present</span><br>
+    <i>Providing strategic AI and technical guidance to an early-stage AI venture fund</i>
   </li>
 </ul>
