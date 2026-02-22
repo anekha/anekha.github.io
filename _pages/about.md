@@ -19,7 +19,7 @@ no_meta: true
 
 I’m the founder of [**Moshi**](https://www.moshi.team/) — VC-backed, live with institutional, fund, and corporate pilot customers, and grown to a team of 5 in 6 months. Moshi delivers 24/7 agentic quant analysts for financial markets.
 
-Previously, I led [NASA](https://www.nasa.gov/johnson/)’s crater detection research (93% precision for spacecraft navigation), advanced 3D reconstruction research with [Stability AI](https://stability.ai) at Rice University, and founded [JewelVision](https://jewelvision.ai/) — building 3D asset generation and virtual try-on tools for e-commerce. Our ICLR 2026 paper, [**GIQ**](https://openreview.net/forum?id=SrhJFePI8G), benchmarks 3D geometric reasoning in vision foundation models.
+Previously, I led [NASA](https://www.nasa.gov/johnson/)’s crater detection research (93% precision for spacecraft navigation), advanced 3D reconstruction research with [Stability AI](https://stability.ai) at Rice University, and founded [JewelVision](https://jewelvision.ai/) — building 3D asset generation and virtual try-on tools for e-commerce. Our ICLR 2026 paper, [**GIQ**](https://toomanymatts.github.io/giq-benchmark/), benchmarks 3D geometric reasoning in vision foundation models.
 
 My career’s always been anchored in data — from modeling financial risk as a derivatives trader at JP Morgan to training deep learning systems for multimodal AI. I bring a unique mix of technical depth, product strategy, and **cross-industry experience** — spanning finance, aerospace, and e-commerce.
 

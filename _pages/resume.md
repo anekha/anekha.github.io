@@ -178,7 +178,7 @@ For more details, you can download the PDF version of my resume 📄 [here](/ass
     </p>
     Computer Vision Researcher<br>
     <p style="color:#7a7a7a">
-      Paper accepted at <b>ICLR 2026</b>: <a href="https://openreview.net/forum?id=SrhJFePI8G" target="_blank">GIQ: Benchmarking 3D Geometric Reasoning of Vision Foundation Models</a>. Built benchmark revealing vision models struggle with basic 3D geometric reasoning.
+      Paper accepted at <b>ICLR 2026</b>: <a href="https://toomanymatts.github.io/giq-benchmark/" target="_blank">GIQ: Benchmarking 3D Geometric Reasoning of Vision Foundation Models</a>. Built benchmark revealing vision models struggle with basic 3D geometric reasoning.
     </p>
   </div>
 

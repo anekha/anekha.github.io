@@ -13,8 +13,9 @@ author_profile: true
     <b>GIQ: Benchmarking 3D Geometric Reasoning of Vision Foundation Models with Simulated and Real Polyhedra</b>
     <span style="float:right; color:#7a7a7a;">ICLR 2026</span><br>
     Anekha Sokhal, Mateusz Michalkiewicz, Varun Jampani, Guha Balakrishnan, Tadeusz Michalkiewicz, Piotr Pawlikowski, Mahsa Baktashmotlagh<br>
-    <a href="https://openreview.net/forum?id=SrhJFePI8G" target="_blank">Paper</a> |
-    <a href="https://vision.rice.edu/" target="_blank">Computer Vision Research Lab at Rice</a>
+    <a href="https://toomanymatts.github.io/giq-benchmark/" target="_blank">Project Page</a> |
+    <a href="https://arxiv.org/abs/2506.08194" target="_blank">arXiv</a> |
+    <a href="https://github.com/TooManyMatts/giq-benchmark" target="_blank">GitHub</a>
   </li>
 </ul>
 
