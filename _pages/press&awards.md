@@ -84,11 +84,6 @@ author_profile: true
     Panelist in a Fulbright Program webinar on community engagement and finding opportunities. Recognized on the Fulbright Program Star list.
   </li>
 
-  <li>
-    <b>Houston Fulbright Enrichment Seminar</b>
-    <span style="float:right; color:#7a7a7a;">Feb 2024</span><br>
-    Selected to attend a Fulbright enrichment seminar in Houston featuring panel discussions, site visits, and workshops.
-  </li>
 </ul>
 
 <!-- Side-by-side images -->
@@ -114,6 +109,12 @@ author_profile: true
     <a href="https://houston.innovationmap.com/rice-university-liu-idea-lab-2024-2668479547.html" target="_blank">InnovationMap</a> |
     <a href="https://news.rice.edu/news/2024/lilie-showcases-8-student-startups-are-making-difference-their-industries" target="_blank">Rice News (Startups)</a> |
     <a href="https://entrepreneurship.rice.edu/blog/meet-the-2024-summer-venture-studio-cohort" target="_blank">Rice Entrepreneurship Blog</a>
+  </li>
+
+  <li>
+    <b>Houston Fulbright Enrichment Seminar</b>
+    <span style="float:right; color:#7a7a7a;">Feb 2024</span><br>
+    Selected to attend a Fulbright enrichment seminar in Houston featuring panel discussions, site visits, and workshops.
   </li>
 </ul>
 
