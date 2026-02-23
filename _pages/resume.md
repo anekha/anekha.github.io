@@ -122,24 +122,86 @@ For more details, you can download the PDF version of my resume 📄 [here](/ass
 </div>
 
 
-<!-- JP Morgan -->
+<!-- JP Morgan - Energy Derivatives Trader -->
 <div style="display:flex;">
-
   <div style="flex:0.5; padding-right:5%">
     <img src="{{ site.url }}/assets/resume/jpm.png" style="align:left; border: 1px solid #d3d3d3; border-style: outset;">
   </div>
-
   <div style="flex:4;">
     <p style="margin:0px">
       <b style="font-size: 130%;">JP Morgan</b>
-      <span style="float:right; color:#7a7a7a;">Oct 2014 - June 2021</span>
+      <span style="float:right; color:#7a7a7a;">Jan 2017 - Jun 2021</span>
     </p>
-    Derivatives Trader<br>
+    Energy Derivatives Trader<br>
     <p style="color:#7a7a7a">
-      Structured derivatives trades and built predictive models for European gas markets; automated portfolio risk analytics.
+      Built proprietary forecasting models for European gas markets. Structured and executed complex energy derivatives. Automated real-time risk dashboards for 100+ clients and stakeholders.
     </p>
   </div>
+</div>
 
+<!-- JP Morgan - Commodity Analyst -->
+<div style="display:flex;">
+  <div style="flex:0.5; padding-right:5%">
+    <img src="{{ site.url }}/assets/resume/jpm.png" style="align:left; border: 1px solid #d3d3d3; border-style: outset;">
+  </div>
+  <div style="flex:4;">
+    <p style="margin:0px">
+      <b style="font-size: 130%;">JP Morgan</b>
+      <span style="float:right; color:#7a7a7a;">Dec 2014 - Dec 2016</span>
+    </p>
+    Commodity Analyst<br>
+    <p style="color:#7a7a7a">
+      Provided risk management solutions to corporate clients using Energy, Metals and Agricultural Derivatives Products.
+    </p>
+  </div>
+</div>
+
+<!-- JP Morgan - Emerging Markets Summer Intern -->
+<div style="display:flex;">
+  <div style="flex:0.5; padding-right:5%">
+    <img src="{{ site.url }}/assets/resume/jpm.png" style="align:left; border: 1px solid #d3d3d3; border-style: outset;">
+  </div>
+  <div style="flex:4;">
+    <p style="margin:0px">
+      <b style="font-size: 130%;">JP Morgan</b>
+      <span style="float:right; color:#7a7a7a;">Jun 2014 - Dec 2014</span>
+    </p>
+    Emerging Markets Summer Intern<br>
+    <p style="color:#7a7a7a">
+      Rotated across EM Sales, Trading, ICM and Commodities.
+    </p>
+  </div>
+</div>
+
+<!-- RBS - Summer Intern -->
+<div style="display:flex;">
+  <div style="flex:0.5; padding-right:5%">
+    <img src="{{ site.url }}/assets/resume/rbs.png" style="align:left; border: 1px solid #d3d3d3; border-style: outset;">
+  </div>
+  <div style="flex:4;">
+    <p style="margin:0px">
+      <b style="font-size: 130%;">RBS International</b>
+      <span style="float:right; color:#7a7a7a;">Jul 2013 - Sep 2013</span>
+    </p>
+    Summer Intern in Markets<br>
+    <p style="color:#7a7a7a">
+      CVA Trading, Prime Brokerage.
+    </p>
+  </div>
+</div>
+
+<!-- RBS - Spring Intern -->
+<div style="display:flex;">
+  <div style="flex:0.5; padding-right:5%">
+    <img src="{{ site.url }}/assets/resume/rbs.png" style="align:left; border: 1px solid #d3d3d3; border-style: outset;">
+  </div>
+  <div style="flex:4;">
+    <p style="margin:0px">
+      <b style="font-size: 130%;">RBS International</b>
+      <span style="float:right; color:#7a7a7a;">Apr 2013</span>
+    </p>
+    Spring Intern<br>
+  </div>
 </div>
 
 ## Research 👨‍💼
@@ -253,6 +315,44 @@ See more on my [Projects page](/projects).
     <i>Women in Leadership Program, Doerr Institute, Rice University (2024) – Completed executive coaching and leadership development</i>
   </li>
 </ul>
+
+---
+
+## Volunteering & Social Impact 🌍
+
+<!-- JP Morgan Service Corps -->
+<div style="display:flex;">
+  <div style="flex:0.5; padding-right:5%">
+    <img src="{{ site.url }}/assets/resume/Maharishi_International_University_logo_1.png" style="align:left; border: 1px solid #d3d3d3; border-style: outset;">
+  </div>
+  <div style="flex:4;">
+    <p style="margin:0px">
+      <b style="font-size: 130%;">J.P. Morgan International Virtual Service Corps</b>
+      <span style="float:right; color:#7a7a7a;">Sep 2019 - Mar 2020</span>
+    </p>
+    Consultant<br>
+    <p style="color:#7a7a7a">
+      Part of a team of 6 on J.P. Morgan's first International Virtual Service Corps program with Pyxera Global, developing a financial expansion plan for a South African social enterprise.
+    </p>
+  </div>
+</div>
+
+<!-- ThoughtWorks -->
+<div style="display:flex;">
+  <div style="flex:0.5; padding-right:5%">
+    <img src="{{ site.url }}/assets/resume/thoughtworks.jpg" style="align:left; border: 1px solid #d3d3d3; border-style: outset;">
+  </div>
+  <div style="flex:4;">
+    <p style="margin:0px">
+      <b style="font-size: 130%;">ThoughtWorks & HumanityX</b>
+      <span style="float:right; color:#7a7a7a;">Oct 2017 - Dec 2017</span>
+    </p>
+    Consultant<br>
+    <p style="color:#7a7a7a">
+      Collaborated on the 'Building an Equitable Tech Future' program, researching how tech trends can disrupt the charity sector to streamline charitable donations through transparency and cost-cutting.
+    </p>
+  </div>
+</div>
 
 ---
 
