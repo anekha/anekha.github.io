@@ -66,10 +66,28 @@ author_profile: true
   </li>
 
   <li>
+    <b>Rice MBA Summer Startup Sync</b>
+    <span style="float:right; color:#7a7a7a;">May 2025</span><br>
+    Guest speaker invited to present to Rice MBA students on startups and venture building.
+  </li>
+
+  <li>
     <b>Generative AI & ML in the Enterprise</b>
     <span style="float:right; color:#7a7a7a;">Feb 2025</span><br>
     Presented applications of generative AI and computer vision in e-commerce at the
     <a href="https://www.datascience.salon/austin/" target="_blank">Data Science Salon</a>.
+  </li>
+
+  <li>
+    <b>Fulbright "Connect with Your Community" Webinar</b>
+    <span style="float:right; color:#7a7a7a;">Oct 2024</span><br>
+    Panelist in a Fulbright Program webinar on community engagement and finding opportunities. Recognized on the Fulbright Program Star list.
+  </li>
+
+  <li>
+    <b>Houston Fulbright Enrichment Seminar</b>
+    <span style="float:right; color:#7a7a7a;">Feb 2024</span><br>
+    Selected to attend a Fulbright enrichment seminar in Houston featuring panel discussions, site visits, and workshops.
   </li>
 </ul>
 
