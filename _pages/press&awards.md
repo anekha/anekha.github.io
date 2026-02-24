@@ -28,7 +28,16 @@ author_profile: true
     <span style="float:right; color:#7a7a7a;">Mar 2025</span><br>
     <a href="https://www.womeninai.co/post/finalists-announced-for-women-in-ai-awards-north-america-2025" target="_blank">Announcement</a>
   </li>
+</ul>
 
+<div style="margin: 20px 0; text-align: center;">
+  <img src="/assets/press&awards/womeninAI.jpeg" alt="Women in AI North America 2025 Finalists" style="max-width: 90%; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+</div>
+<p style="margin-top: -10px; font-style: italic; font-size: 0.9em; text-align: center; color: #555;">
+  Finalist — Women in AI Summit & Awards, North America 2025
+</p>
+
+<ul>
   <li>
     <b>3rd Prize</b>
     <span style="float:right; color:#7a7a7a;">2017</span><br>
@@ -95,6 +104,16 @@ author_profile: true
     Invited speaker at Houston’s largest AI meetup community.
   </li>
 
+</ul>
+
+<div style="margin: 20px 0; text-align: center;">
+  <img src="/assets/press&awards/houstonAIclub.jpeg" alt="Houston AI Club - Anekha Sokhal speaker flyer" style="max-width: 50%; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+</div>
+<p style="margin-top: -10px; font-style: italic; font-size: 0.9em; text-align: center; color: #555;">
+  Invited speaker at Houston AI Club — May 2025
+</p>
+
+<ul>
   <li>
     <b>Rice MBA Summer Startup Sync</b>
     <span style="float:right; color:#7a7a7a;">May 2025</span><br>
@@ -125,6 +144,13 @@ author_profile: true
 <!-- Caption -->
 <p style="margin-top: -10px; font-style: italic; font-size: 0.9em; text-align: center;">
   Presenting and sharing insights on generative AI at Data Science Salon, Austin — Feb 2025.
+</p>
+
+<div style="margin: 20px 0; text-align: center;">
+  <img src="/assets/press&awards/DSSATX.jpeg" alt="DSS ATX Startup Showcase 2025" style="max-width: 90%; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+</div>
+<p style="margin-top: -10px; font-style: italic; font-size: 0.9em; text-align: center; color: #555;">
+  Featured at the DSS ATX Startup Showcase, Austin — Feb 2025
 </p>
 
 ---
