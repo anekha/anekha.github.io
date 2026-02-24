@@ -28,6 +28,36 @@ author_profile: true
     <span style="float:right; color:#7a7a7a;">Mar 2025</span><br>
     <a href="https://www.womeninai.co/post/finalists-announced-for-women-in-ai-awards-north-america-2025" target="_blank">Announcement</a>
   </li>
+
+  <li>
+    <b>3rd Prize</b>
+    <span style="float:right; color:#7a7a7a;">2017</span><br>
+    Code First: Girls web development competition
+  </li>
+
+  <li>
+    <b>Work Experience Bursary</b>
+    <span style="float:right; color:#7a7a7a;">2012</span><br>
+    University of Warwick
+  </li>
+
+  <li>
+    <b>Ranked 11th in Mauritius</b>
+    <span style="float:right; color:#7a7a7a;">2010</span><br>
+    Cambridge International Examinations A-Levels, Girls' Science Side
+  </li>
+
+  <li>
+    <b>Best Delegate and Delegation</b>
+    <span style="float:right; color:#7a7a7a;">2010</span><br>
+    Model United Nations Conference, representing Georgia
+  </li>
+
+  <li>
+    <b>Ranked 1st in Economics in Mauritius</b>
+    <span style="float:right; color:#7a7a7a;">2008</span><br>
+    Cambridge International Examinations O-Levels, Girls' Side
+  </li>
 </ul>
 
 ---

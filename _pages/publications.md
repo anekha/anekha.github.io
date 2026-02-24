@@ -21,6 +21,29 @@ author_profile: true
 
 ---
 
+## 📝 Other Publications
+
+<ul>
+  <li>
+    <b>International Consulting Program</b>
+    <span style="float:right; color:#7a7a7a;">2020</span><br>
+    JP Morgan Investment Banking Blog. Wrote an article on experience working with the Maharishi Institute through J.P. Morgan's International Virtual Service Corps.
+  </li>
+
+  <li>
+    <b>The Children's Knowledge Channel</b>
+    <span style="float:right; color:#7a7a7a;">2011</span><br>
+    Mauritius Broadcasting Corporation (MBC). Researched and wrote over ten scripts for children's television programs.
+  </li>
+
+  <li>
+    <b>Young Writers, UK</b><br>
+    Five poems published across books, magazines and online.
+  </li>
+</ul>
+
+---
+
 ## 🧪 Ongoing Research
 
 <ul>

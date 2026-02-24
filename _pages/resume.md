@@ -301,6 +301,15 @@ See more on my [Projects page](/projects).
       </li>
     </ul>
   </li>
+
+  <li>
+    Certifications
+    <ul>
+      <li>
+        <b>CISI</b>: Securities, Derivatives and UK Regulations Papers (Oct 2014)
+      </li>
+    </ul>
+  </li>
 </ul>
 
 
