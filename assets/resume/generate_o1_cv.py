@@ -12,7 +12,56 @@ from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 import os
 
+# ── Constants ────────────────────────────────────────────────────────────────
+
+DRIVE_PLACEHOLDER = 'https://drive.google.com/PLACEHOLDER'
+
 # ── Helpers ──────────────────────────────────────────────────────────────────
+
+def add_hyperlink(paragraph, text, url, color='0563C1'):
+    """Add a clickable hyperlink to an existing paragraph."""
+    part = paragraph.part
+    r_id = part.relate_to(url, 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink', is_external=True)
+    hyperlink = OxmlElement('w:hyperlink')
+    hyperlink.set(qn('r:id'), r_id)
+    new_run = OxmlElement('w:r')
+    rPr = OxmlElement('w:rPr')
+    c = OxmlElement('w:color')
+    c.set(qn('w:val'), color)
+    rPr.append(c)
+    u = OxmlElement('w:u')
+    u.set(qn('w:val'), 'single')
+    rPr.append(u)
+    sz = OxmlElement('w:sz')
+    sz.set(qn('w:val'), '21')  # 10.5pt in half-points
+    rPr.append(sz)
+    rFonts = OxmlElement('w:rFonts')
+    rFonts.set(qn('w:ascii'), 'Calibri')
+    rFonts.set(qn('w:hAnsi'), 'Calibri')
+    rPr.append(rFonts)
+    new_run.append(rPr)
+    new_run.text = text
+    hyperlink.append(new_run)
+    paragraph._p.append(hyperlink)
+    return hyperlink
+
+
+def add_evidence_links(paragraph, website_url=None):
+    """Append ' [Drive] [Website]' as hyperlinks at the end of a paragraph.
+
+    All claims get a [Drive] link (placeholder). Only claims with a public URL
+    also get a [Website] link.
+    """
+    run = paragraph.add_run('  ')
+    run.font.size = Pt(10.5)
+    run.font.name = 'Calibri'
+    add_hyperlink(paragraph, '[Drive]', DRIVE_PLACEHOLDER, color='E67E22')
+    if website_url:
+        spacer = paragraph.add_run(' ')
+        spacer.font.size = Pt(10.5)
+        spacer.font.name = 'Calibri'
+        add_hyperlink(paragraph, '[Website]', website_url, color='27AE60')
+
 
 def set_cell_shading(cell, color):
     shading = OxmlElement('w:shd')
@@ -276,6 +325,11 @@ def generate_cv():
         '2023 – 2025',
         honors='Fulbright Elsevier Data Analytics Award (2023) | IBM AI Fellowship Nominee (2024) | Women in AI North America Finalist (2025)',
     )
+    # Evidence links for Rice education
+    p_rice_edu = add_bullet(doc, 'Fulbright profile at Rice')
+    add_evidence_links(p_rice_edu, website_url='https://fulbright.rice.edu/people/anekha-sokhal')
+    p_rice_eng = add_bullet(doc, 'Rice Engineering feature')
+    add_evidence_links(p_rice_eng, website_url='https://engineering.rice.edu/news/fulbrighters-engineering-professional-masters-program-rice-home-away-home')
 
     # University of Warwick
     add_education_entry(
@@ -333,20 +387,32 @@ def generate_cv():
 
     # ── Moshi ──
     add_role_header(doc, 'Moshi', 'Founder & Lead ML Engineer', 'Houston, Texas', 'Jun 2025 – Present')
-    add_bullet(doc, 'VC-backed startup building 24/7 agentic quant analysts for financial markets')
+    p = add_bullet(doc, 'VC-backed startup building 24/7 agentic quant analysts for financial markets')
+    add_evidence_links(p, website_url='https://www.moshi.team/')
     add_bullet(doc, 'Live with institutional, fund, and corporate pilot customers')
     add_bullet(doc, 'Built and led a team of 5 in 6 months')
 
     # ── JewelVision ──
     add_role_header(doc, 'JewelVision', 'Founder & Lead AI Engineer', 'Houston, Texas', 'Jan 2024 – Dec 2024')
-    add_bullet(doc, 'Selected as 1 of 8 startups for Rice\'s Liu Idea Lab Summer Venture Studio, a competitive accelerator for student founders')
+    p = add_bullet(doc, 'Selected as 1 of 8 startups for Rice\'s Liu Idea Lab Summer Venture Studio, a competitive accelerator for student founders')
+    add_evidence_links(p, website_url='https://jewelvision.ai')
     add_bullet(doc, 'Spearheaded development of 3D asset generation and AR virtual try-on tools using multimodal AI (vision, LLMs, AR/VR)')
     add_bullet(doc, 'Raised $18K in funding and drove a cross-functional technical team; delivered live demos to 50+ clients and investors')
-    add_bullet(doc, 'Pitched at JewelVision Demo Day to 100+ investors and researchers')
+    p = add_bullet(doc, 'Pitched at JewelVision Demo Day to 100+ investors and researchers')
+    add_evidence_links(p, website_url='https://www.youtube.com/live/WCl0LXecB_Y?si=emex9cpeQKH6F6dd')
+    # Lilie feature links
+    p = add_bullet(doc, 'Lilie feature — Rice News')
+    add_evidence_links(p, website_url='https://news.rice.edu/news/2024/rice-entrepreneurship-lab-unveils-teams-2024-lilie-summer-venture-studio-accelerator')
+    p = add_bullet(doc, 'Lilie feature — InnovationMap')
+    add_evidence_links(p, website_url='https://houston.innovationmap.com/rice-university-liu-idea-lab-2024-2668479547.html')
+    p = add_bullet(doc, 'Lilie feature — Rice News (Startups)')
+    add_evidence_links(p, website_url='https://news.rice.edu/news/2024/lilie-showcases-8-student-startups-are-making-difference-their-industries')
+    p = add_bullet(doc, 'Lilie feature — Rice Entrepreneurship Blog')
+    add_evidence_links(p, website_url='https://entrepreneurship.rice.edu/blog/meet-the-2024-summer-venture-studio-cohort')
 
     # ── ESKA International ──
     add_role_header(doc, 'ESKA International', 'Head of Strategy & Data Analytics / Chief Operating Officer (COO)', 'UK', 'Apr 2020 – Apr 2023')
-    add_body_text(
+    p = add_body_text(
         doc,
         'Line of business: After one year of working part-time, moved to a full-time internal role. '
         'ESKA is a vertically integrated business with retail and wholesale operations in the UK and a unique '
@@ -354,6 +420,7 @@ def generate_cv():
         'the world locally and manufactures high-end jewellery to exceptional quality for consumer markets under the '
         'supervision of a Gemmologist.'
     )
+    add_evidence_links(p, website_url='https://legemjewels.com')
     add_sub_header(doc, 'Main Duties:')
     add_bullet(doc, 'Collaborated with the CEO to support diverse business operations across all core areas of the business, '
                'including Product & Operations (gemstone trading, cutting, jewellery manufacturing), Finance, Marketing, Strategy '
@@ -535,13 +602,19 @@ def generate_cv():
     add_section_heading(doc, 'Research Experience')
 
     add_role_header(doc, 'Rice University & NASA', 'AI/ML Engineer', 'Houston, Texas', 'Jan 2025 – May 2025')
-    add_bullet(doc, 'Achieved 93% precision in spacecraft localization via a deep learning pipeline using Python and PyTorch in Rice\'s D2K Lab')
+    p = add_bullet(doc, 'Achieved 93% precision in spacecraft localization via a deep learning pipeline using Python and PyTorch in Rice\'s D2K Lab')
+    add_evidence_links(p, website_url='https://anekha.github.io/deep-learning/2025/03/28/NASA.html')
     add_bullet(doc, 'Designed and compared YOLO + Ellipse R-CNN vs. YOLO + geometry-based fitting on dual annotated/augmented datasets')
     add_bullet(doc, 'Fine-tuned each model separately using learning rate scheduling, early stopping, and experiment tracking with W&B')
     add_bullet(doc, 'Delivered CPU-optimized models (20s/image, <4GB RAM) and presented results at NASA Houston to support deployment')
 
     add_role_header(doc, 'Rice University & Stability AI', 'Computer Vision Researcher', 'Houston, Texas', 'Sep 2024 – May 2025')
-    add_bullet(doc, 'ICLR 2026 paper: GIQ — Benchmarking 3D Geometric Reasoning of Vision Foundation Models with Simulated and Real Polyhedra')
+    p = add_bullet(doc, 'ICLR 2026 paper: GIQ — Benchmarking 3D Geometric Reasoning of Vision Foundation Models with Simulated and Real Polyhedra')
+    add_evidence_links(p, website_url='https://toomanymatts.github.io/giq-benchmark/')
+    spacer = p.add_run(' ')
+    spacer.font.size = Pt(10.5)
+    spacer.font.name = 'Calibri'
+    add_hyperlink(p, '[OpenReview]', 'https://openreview.net/forum?id=Uf8X57bQIr', color='8E44AD')
     add_bullet(doc, 'Collaborated with Stability AI\'s 3D Reconstruction Lab on dataset design, benchmarking, and evaluation')
     add_bullet(doc, 'Built and structured real/synthetic 3D datasets to test generalization of SOTA monocular and multi-view reconstruction models')
     add_bullet(doc, 'Analyzed model robustness and refined evaluation methods for LLM- and vision-based recognition under varied conditions')
@@ -552,7 +625,8 @@ def generate_cv():
     add_bullet(doc, 'Conducted product and market research in the gemstone and jewellery industry to evaluate market opportunities')
 
     add_role_header(doc, 'Rice University', 'Ongoing Research — GaussianObject + MASt3R-SfM Integration', 'Houston, Texas', '2025 – Present')
-    add_bullet(doc, 'Exploring how retrieval-based pose estimation (MASt3R-SfM) improves COLMAP-free Gaussian Splatting reconstruction pipelines')
+    p = add_bullet(doc, 'Exploring how retrieval-based pose estimation (MASt3R-SfM) improves COLMAP-free Gaussian Splatting reconstruction pipelines')
+    add_evidence_links(p, website_url='https://anekha.github.io/research/computer%20vision/3d/2025/02/28/MASt3RSfM.html')
     add_bullet(doc, 'Investigating sparse-view 3D reconstruction methods that combine Gaussian object representations with dense stereo matching')
 
     add_role_header(doc, 'JP Morgan', 'European Gas Research Analyst', 'London, UK', '2017 – 2021')
@@ -588,6 +662,15 @@ def generate_cv():
     run.bold = True
     run.font.size = Pt(10.5)
     run.font.name = 'Calibri'
+    add_evidence_links(p, website_url='https://arxiv.org/abs/2506.08194')
+    spacer = p.add_run(' ')
+    spacer.font.size = Pt(10.5)
+    spacer.font.name = 'Calibri'
+    add_hyperlink(p, '[OpenReview]', 'https://openreview.net/forum?id=Uf8X57bQIr', color='8E44AD')
+    spacer2 = p.add_run(' ')
+    spacer2.font.size = Pt(10.5)
+    spacer2.font.name = 'Calibri'
+    add_hyperlink(p, '[Scholar]', 'https://scholar.google.com/citations?user=wpdCDjAAAAAJ&hl=en', color='2E86C1')
     add_body_text(doc, 'ICLR 2026')
     add_body_text(doc, 'Anekha Sokhal, Mateusz Michalkiewicz, Varun Jampani, Guha Balakrishnan, Tadeusz Michalkiewicz, '
                   'Piotr Pawlikowski, Mahsa Baktashmotlagh')
@@ -599,6 +682,7 @@ def generate_cv():
     run.bold = True
     run.font.size = Pt(10.5)
     run.font.name = 'Calibri'
+    add_evidence_links(p)
     add_body_text(doc, 'JP Morgan Investment Banking Blog (2020)')
     add_bullet(doc, 'Wrote an article published on the JP Morgan Investment Banking Blog on experience working with the Maharishi Institute')
 
@@ -609,6 +693,7 @@ def generate_cv():
     run.bold = True
     run.font.size = Pt(10.5)
     run.font.name = 'Calibri'
+    add_evidence_links(p)
     add_body_text(doc, 'Mauritius Broadcasting Corporation (MBC), 2011')
     add_bullet(doc, 'Researched and wrote over ten scripts for the children\'s television programs aired on live television')
 
@@ -619,6 +704,7 @@ def generate_cv():
     run.bold = True
     run.font.size = Pt(10.5)
     run.font.name = 'Calibri'
+    add_evidence_links(p)
     add_bullet(doc, 'Five poems published across books, magazines and online for Young Writers UK')
 
     # ════════════════════════════════════════════════════════════════════════
@@ -643,27 +729,40 @@ def generate_cv():
     # 8. AWARDS & RECOGNITION
     # ════════════════════════════════════════════════════════════════════════
     add_section_heading(doc, 'Awards & Recognition')
-    add_bullet(doc, 'UK-US Fulbright Elsevier Data Analytics Award (2023)')
-    add_bullet(doc, 'IBM Masters Fellowship Awards in AI — Nominee (2024)')
-    add_bullet(doc, 'Women in AI North America Awards — Finalist (2025)')
-    add_bullet(doc, 'Lilie Accelerator — Selected for Rice\'s Liu Idea Lab Summer Venture Studio as 1 of 8 startups (2024)')
-    add_bullet(doc, 'Ranked 11th in Mauritius in Cambridge International Examinations A-Levels Girls\' Science Side (2010)')
-    add_bullet(doc, 'Ranked 1st in Mauritius in Economics in Cambridge International Examinations O-Levels Girls\' Side (2008)')
-    add_bullet(doc, 'Best Delegate and Delegation for representing Georgia in the Model United Nations Conference (2010)')
-    add_bullet(doc, 'Work Experience Bursary, University of Warwick (2012)')
-    add_bullet(doc, '3rd prize, Code First: Girls web development competition (2017)')
+    p = add_bullet(doc, 'UK-US Fulbright Elsevier Data Analytics Award (2023)')
+    add_evidence_links(p, website_url='https://fulbright.org.uk/people-search/anekha-sokhal/')
+    p = add_bullet(doc, 'IBM Masters Fellowship Awards in AI — Nominee (2024)')
+    add_evidence_links(p)
+    p = add_bullet(doc, 'Women in AI North America Awards — Finalist (2025)')
+    add_evidence_links(p, website_url='https://www.womeninai.co/post/finalists-announced-for-women-in-ai-awards-north-america-2025')
+    p = add_bullet(doc, 'Lilie Accelerator — Selected for Rice\'s Liu Idea Lab Summer Venture Studio as 1 of 8 startups (2024)')
+    add_evidence_links(p, website_url='https://news.rice.edu/news/2024/rice-entrepreneurship-lab-unveils-teams-2024-lilie-summer-venture-studio-accelerator')
+    p = add_bullet(doc, 'Ranked 11th in Mauritius in Cambridge International Examinations A-Levels Girls\' Science Side (2010)')
+    add_evidence_links(p)
+    p = add_bullet(doc, 'Ranked 1st in Mauritius in Economics in Cambridge International Examinations O-Levels Girls\' Side (2008)')
+    add_evidence_links(p)
+    p = add_bullet(doc, 'Best Delegate and Delegation for representing Georgia in the Model United Nations Conference (2010)')
+    add_evidence_links(p)
+    p = add_bullet(doc, 'Work Experience Bursary, University of Warwick (2012)')
+    add_evidence_links(p)
+    p = add_bullet(doc, '3rd prize, Code First: Girls web development competition (2017)')
+    add_evidence_links(p)
 
     # ════════════════════════════════════════════════════════════════════════
     # 9. SPEAKER ENGAGEMENTS & JUDGING
     # ════════════════════════════════════════════════════════════════════════
     add_section_heading(doc, 'Speaker Engagements & Judging')
-    add_bullet(doc, 'NRLC 2026 Judge — Judge at the Napier Rice Launch Challenge (Mar 2026)')
+    p = add_bullet(doc, 'NRLC 2026 Judge — Judge at the Napier Rice Launch Challenge (Mar 2026)')
+    add_evidence_links(p, website_url='https://entrepreneurship.rice.edu/napier-rice-launch-challenge')
     add_bullet(doc, 'Mercury Fund Day at the Ion — Panel speaker on "The New FDE Model: How to Deploy with Scale in Legacy Industries" (Feb 2026)')
-    add_bullet(doc, 'Lilie Founders Journey — Guest speaker in the Founders Journey class at Rice Entrepreneurship, filmed as a podcast episode (Feb 2026)')
+    p = add_bullet(doc, 'Lilie Founders Journey — Guest speaker in the Founders Journey class at Rice Entrepreneurship, filmed as a podcast episode (Feb 2026)')
+    add_evidence_links(p, website_url='https://entrepreneurship.rice.edu/')
     add_bullet(doc, 'Rice MDS Student–Alumni Panel — Panelist at the Master of Data Science student–alumni discussion, invited by Dr. Marmar Orooji (Dec 2025)')
-    add_bullet(doc, 'Houston AI Club — Invited speaker at Houston\'s largest AI meetup community (May 2025)')
+    p = add_bullet(doc, 'Houston AI Club — Invited speaker at Houston\'s largest AI meetup community (May 2025)')
+    add_evidence_links(p, website_url='https://www.houstonaiclub.com/')
     add_bullet(doc, 'Rice MBA Summer Startup Sync — Guest speaker presenting to Rice MBA students on startups and venture building (May 2025)')
-    add_bullet(doc, 'Generative AI & ML in the Enterprise — Presented applications of generative AI and computer vision in e-commerce at the Data Science Salon, Austin (Feb 2025)')
+    p = add_bullet(doc, 'Generative AI & ML in the Enterprise — Presented applications of generative AI and computer vision in e-commerce at the Data Science Salon, Austin (Feb 2025)')
+    add_evidence_links(p, website_url='https://www.datascience.salon/austin/')
     add_bullet(doc, 'Fulbright "Connect with Your Community" Webinar — Panelist in a Fulbright Program webinar on community engagement. Recognized on the Fulbright Program Star list (Oct 2024)')
     add_bullet(doc, 'Houston Fulbright Enrichment Seminar — Selected to attend enrichment seminar in Houston (Feb 2024)')
     add_bullet(doc, 'JewelVision Demo Day — Pitched to 100+ investors and researchers (2024)')
@@ -672,16 +771,19 @@ def generate_cv():
     # 10. MEDIA & PODCASTS
     # ════════════════════════════════════════════════════════════════════════
     add_section_heading(doc, 'Media & Podcasts')
-    add_bullet(doc, 'AI After Dark Podcast — Guest on the AI After Dark podcast, hosted by Alex Gras at Collide and Mercury Fund (Feb 2026)')
+    p = add_bullet(doc, 'AI After Dark Podcast — Guest on the AI After Dark podcast, hosted by Alex Gras at Collide and Mercury Fund (Feb 2026)')
+    add_evidence_links(p, website_url='https://app.collide.io/content/')
     add_bullet(doc, 'Lilie Founders Journey Podcast — Featured episode from the Founders Journey class at Rice Entrepreneurship (Feb 2026)')
-    add_bullet(doc, 'Don\'t Panic Podcast — Guest episode (Feb 2023)')
+    p = add_bullet(doc, 'Don\'t Panic Podcast — Guest episode (Feb 2023)')
+    add_evidence_links(p, website_url='https://dontpanicpodcast.buzzsprout.com/2029474/episodes/12279537')
 
     # ════════════════════════════════════════════════════════════════════════
     # 11. ADVISORY
     # ════════════════════════════════════════════════════════════════════════
     add_section_heading(doc, 'Advisory')
     add_role_header(doc, 'Quicksilver AI Labs, Inc.', 'AI Advisor', '', 'Dec 2025 – Present')
-    add_bullet(doc, 'Providing strategic AI and technical guidance to an early-stage AI venture fund')
+    p = add_bullet(doc, 'Providing strategic AI and technical guidance to an early-stage AI venture fund')
+    add_evidence_links(p)
 
     # ════════════════════════════════════════════════════════════════════════
     # 12. ADDITIONAL CONSULTING & SOCIAL IMPACT
