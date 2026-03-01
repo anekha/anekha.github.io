@@ -15,6 +15,8 @@ author_profile: true
     Anekha Sokhal, Mateusz Michalkiewicz, Varun Jampani, Guha Balakrishnan, Tadeusz Michalkiewicz, Piotr Pawlikowski, Mahsa Baktashmotlagh<br>
     <a href="https://toomanymatts.github.io/giq-benchmark/" target="_blank">Project Page</a> |
     <a href="https://arxiv.org/abs/2506.08194" target="_blank">arXiv</a> |
+    <a href="https://openreview.net/forum?id=Uf8X57bQIr" target="_blank">OpenReview</a> |
+    <a href="https://scholar.google.com/citations?user=wpdCDjAAAAAJ&hl=en" target="_blank">Google Scholar</a> |
     <a href="https://github.com/TooManyMatts/giq-benchmark" target="_blank">GitHub</a>
   </li>
 </ul>
